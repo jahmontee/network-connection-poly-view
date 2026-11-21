@@ -49,6 +49,11 @@ Open **Network Connection** on Hector to set a browser password and find the loc
 
 The signed installer includes two Linux storage repairs. The same ZIP contains both the hardware USB entry point and the data that Module Manager verifies for an update. See the [release notes](https://github.com/jahmontee/network-connection-poly-view/releases/tag/v0.2.0-beta.1) for compatibility and recovery details.
 
+### Tested adapters on Hector 4.0.7
+
+- **Wi‑Fi** — Deal4GO USB adapter with the Qualcomm Atheros **AR9271** chipset, USB ID `0cf3:9271`. **2.4 GHz only.**
+- **Ethernet** — USB adapter with the ASIX **AX88179B** chipset, USB ID `0b95:1790`.
+
 ## Source and credits
 
 This is an independent community release. See [CREDITS.md](CREDITS.md) for upstream projects and license terms. The release includes the exact platform source and the source for the Linux storage repairs as separate downloads.
