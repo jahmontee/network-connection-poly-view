@@ -1,0 +1,25 @@
+[Unit]
+Requires=hector-storage-setup.service
+After=hector-storage-setup.service
+Description=Hector Ethernet control service
+After=NetworkManager.service
+RequiresMountsFor=/mnt/community-lab/ethernet-panel/private
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-ethernet-panel/backend.py
+Restart=on-failure
+RestartSec=3
+RuntimeDirectory=hector-ethernet-panel
+RuntimeDirectoryMode=0750
+ReadWritePaths=/mnt/community-lab/ethernet-panel/private
+UMask=0077
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateDevices=yes
+RestrictAddressFamilies=AF_UNIX AF_NETLINK
+LimitCORE=0
+
+[Install]
+WantedBy=multi-user.target

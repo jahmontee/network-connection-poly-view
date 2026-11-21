@@ -1,0 +1,11 @@
+[Unit]
+Description=Poly / View confirmed app update
+After=local-fs.target
+RequiresMountsFor=/mnt /overlay/lower
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/platform_service.py install
+UMask=0077
+RuntimeMaxSec=1200
+LimitCORE=0

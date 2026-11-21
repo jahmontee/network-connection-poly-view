@@ -1,0 +1,14 @@
+{
+  "flash_repair_source": {
+    "name": "Hector-Flash-Repair-0.1.0-spi-rx.9-Source.tar",
+    "sha256": "6e3d83b6299cb838190a69b098b2d66ca548d40a2e2b9149b1f50bbaf0ffd218"
+  },
+  "link_binaries": {
+    "control": "7fcc9f6df58d9e0f1ee9a211fd50a495a5ba5dbe91cd2354c77189535f62cb33",
+    "helper": "48fce4fc455b157f79e41b1864867ee1ee426c6de186ee0dd78ef15bcd0e69b7"
+  },
+  "upstream_reference_commit": "feb4df451067850770ddd13af9f4e2828234dabc",
+  "upstream_ui": "https://github.com/polyeffects/digit_ui",
+  "usb_sha256": "ba1135d104b173999b92962247c81ee9d2f746ca1a890470fb635d0deadbcffe",
+  "version": "0.2.0-beta.1"
+}

@@ -1,0 +1,11 @@
+{
+  "license": "licenses/Atheros-firmware.txt",
+  "license_sha256": "83870e84c54aa76be973a78387b342c80ef0908b8cb82edde6d54c511b18c16c",
+  "package_manifest_verified": true,
+  "path": "firmware/ath9k_htc/htc_9271-1.4.0.fw",
+  "sha256": "78f7d592a95b419a02fde7440f30c606fc31a871cf0ce150ced40d4857173eb0",
+  "size": 51008,
+  "source_package": "linux-firmware-atheros 20260916-1",
+  "target": "usr/lib/firmware/ath9k_htc/htc_9271-1.4.0.fw",
+  "upstream": "https://github.com/qca/open-ath9k-htc-firmware"
+}

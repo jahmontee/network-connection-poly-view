@@ -1,0 +1,19 @@
+[Unit]
+ConditionPathExists=/usr/local/lib/hector-flash-rx-fix/boot.py
+Description=Correct Hector SPI receive completion before preset storage mounts
+DefaultDependencies=no
+Requires=mnt.mount
+After=mnt.mount systemd-modules-load.service
+Wants=systemd-modules-load.service
+Before=nor_flash.mount shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-flash-rx-fix/boot.py start
+ExecStopPost=/usr/bin/python3 -I -B /usr/local/lib/hector-flash-rx-fix/boot.py recover
+TimeoutStartSec=45
+TimeoutStopSec=20
+UMask=0077
+LimitCORE=0

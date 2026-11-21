@@ -1,0 +1,23 @@
+[Unit]
+Description=Poly / View requested GitHub download
+
+[Service]
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/repository_fetch_service.py
+StandardInput=socket
+StandardOutput=socket
+StandardError=journal
+DynamicUser=yes
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+InaccessiblePaths=/mnt /home
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictSUIDSGID=yes
+LimitCORE=0
+MemoryMax=128M
+RuntimeMaxSec=40

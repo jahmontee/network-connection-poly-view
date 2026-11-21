@@ -1,0 +1,43 @@
+Network Connection / Poly / View 0.2.0-beta.1 public beta
+
+Save your patch before either installation route. Keep the original ZIP.
+
+USB: extract this ZIP at the root of a USB drive, so debug.sh is at its top
+level. Turn Hector off, insert the drive, then start Hector. Its original USB
+startup runs the independent offline installer. No Network Connection, browser
+or internet is needed. Hector restarts after verification and installation.
+An already-installed release is verified without another installation/restart.
+A normal patch screen can appear for about one minute BEFORE the final automatic
+restart. Leave USB inserted until the final restart; the first patch screen alone
+does not mean installation is finished.
+
+Browser: Module Manager > Upload ZIPs > choose this exact ZIP > Update.
+Confirm your patch is saved. The trusted installed updater verifies the release
+as data. It never runs debug.sh or any installer supplied in this archive.
+The browser disconnects briefly; Hector restarts automatically. Refresh after
+it returns. Your password, network profiles, modules and saved data are retained.
+
+Keep the preceding signed release and recovery instructions. Failed/interrupted
+updates restore the previous working files through the protected recovery worker.
+
+FRESH STOCK CARD: this USB first installs signed Flash Repair, then restarts
+to activate it before reading saved presets. LEAVE USB INSERTED. It resumes
+Network Connection installation automatically and restarts a second time.
+Once Network Connection appears in the picker, remove the USB. Later updates
+with a healthy active repair require only one automatic restart.
+
+Includes separately owned shared preset-flash repair for the supported kernel.
+Module and Network Connection removal leave this repair installed.
+
+STARTUP: after Flash Repair is installed, USB verification waits up to90seconds
+for its boot confirmation and watchdog disarm. Package verification has a
+separate90second limit. Neither timeout starts an app installation or retries
+driver activation. Logs remain on SD at /mnt/community-lab/poly-view-usb-startup
+and on USB in POLY-VIEW-INSTALL.log. Keep power on during normal progress.
+
+Source and credits
+
+This is an independent Hector community project. The public release supplies
+source and notices alongside this installer. Beebo/Hector UI portions come
+from Poly Effects' digit_ui project and carry its GNU GPL terms. Separate
+licenses apply to the Linux storage repairs, Link, firmware, fonts and libraries.

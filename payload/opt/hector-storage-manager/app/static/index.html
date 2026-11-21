@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Poly / View</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/c64.css"><script defer src="/reconnect.js"></script><script defer src="/app.js"></script></head>
+<body>
+<!--
+Outline icons from Lucide (https://lucide.dev/).
+
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Monitor, search, lock and unlock are derived from Feather.
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-storage" viewBox="0 0 24 24">
+    <path d="M10 16h.01"/>
+    <path d="M2.212 11.577a2 2 0 0 0-.212.896V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5.527a2 2 0 0 0-.212-.896L18.55 5.11A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
+    <path d="M21.946 12.013H2.054"/><path d="M6 16h.01"/>
+  </symbol>
+  <symbol id="icon-presets" viewBox="0 0 24 24">
+    <path d="M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/>
+    <path d="M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z"/>
+    <path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1"/>
+  </symbol>
+  <symbol id="icon-audio" viewBox="0 0 24 24">
+    <path d="M2 10v3"/><path d="M6 6v11"/><path d="M10 3v18"/>
+    <path d="M14 8v7"/><path d="M18 5v13"/><path d="M22 10v3"/>
+  </symbol>
+  <symbol id="icon-modules" viewBox="0 0 24 24">
+    <path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/>
+    <rect x="14" y="2" width="8" height="8" rx="1"/>
+  </symbol>
+  <symbol id="icon-desktop" viewBox="0 0 24 24">
+    <rect width="20" height="14" x="2" y="3" rx="2"/>
+    <line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/>
+  </symbol>
+  <symbol id="icon-search" viewBox="0 0 24 24">
+    <path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/>
+  </symbol>
+  <symbol id="icon-lock" viewBox="0 0 24 24">
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+  </symbol>
+  <symbol id="icon-unlock" viewBox="0 0 24 24">
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/>
+  </symbol>
+</svg>
+<aside class="rail">
+  <a class="brand" href="/" aria-label="Poly / View home">
+    <span class="brand-mark poly-colors" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <span class="brand-name">Poly / View</span>
+  </a>
+  <div class="rail-label">WORKSPACE</div>
+  <nav aria-label="Workspace">
+    <a class="nav-link" href="#overview"><svg class="ui-icon" aria-hidden="true"><use href="#icon-storage"/></svg>Storage Details</a>
+    <a class="nav-link" href="#presets"><svg class="ui-icon" aria-hidden="true"><use href="#icon-presets"/></svg>Preset Library</a>
+    <a class="nav-link" href="#audio-library"><svg class="ui-icon" aria-hidden="true"><use href="#icon-audio"/></svg>Audio Library</a>
+    <a class="nav-link" id="module-nav" href="#module-manager" hidden><svg class="ui-icon" aria-hidden="true"><use href="#icon-modules"/></svg>Module Manager</a>
+    <a class="nav-link" href="#remote-desktop"><svg class="ui-icon" aria-hidden="true"><use href="#icon-desktop"/></svg>Remote Desktop</a>
+  </nav>
+  <div class="rail-foot">
+    <span class="rail-connection-note"><span class="status-dot"></span> Local network</span>
+    <small>Poly / View</small>
+    <button id="logout" class="nav-link lock-manager-button" type="button" hidden>
+      <svg class="ui-icon" aria-hidden="true"><use id="manager-lock-icon" href="#icon-lock"/></svg>
+      <span id="manager-lock-label">Unlock Manager</span>
+    </button>
+  </div>
+</aside>
+<div class="workspace"><header class="topbar"><div><span class="breadcrumb">Hector</span><span class="slash">/</span>Workspace</div><div class="header-tools"><span class="pill" id="mode">LOCAL DEVICE</span></div></header>
+<main id="overview"><div id="preview-banner" class="preview-banner" hidden></div><div id="storage-heading" class="page-heading" hidden><div><p class="eyebrow">DEVICE STORAGE</p><h1>Storage Details</h1><p class="subheading">See what’s using space on Hector’s SD card.</p></div><button id="refresh" class="button secondary"><span>↻</span> Refresh</button></div>
+<section id="login" class="login-panel" aria-labelledby="login-title" hidden>
+  <div class="login-content">
+    <p class="eyebrow">Welcome to Poly / View</p>
+    <h1 id="login-title">Your module is within reach.</h1>
+    <p class="login-description">Enter your access password to open Poly / View.</p>
+    <form id="login-form">
+      <label for="password">Access password</label>
+      <div class="login-controls">
+        <input id="password" type="password" required autocomplete="current-password" placeholder="Enter your password">
+        <button class="button primary" type="submit">Sign in <span aria-hidden="true">→</span></button>
+      </div>
+      <p id="login-status" role="status"></p>
+      <p id="login-error" role="alert"></p>
+    </form>
+    <button class="text-button" id="preview-login" hidden>Explore the local preview →</button>
+  </div>
+  <div class="login-art poly-colors" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+<div id="dashboard" hidden>
+<div id="storage-view">
+<section class="usage-panel" aria-labelledby="card-title">
+  <div class="usage-header">
+    <h2 id="card-title">SD card storage</h2>
+    <span class="usage-caption" id="card-capacity"></span>
+  </div>
+  <div id="free-for-saves" class="free-for-saves" hidden>
+    <strong id="data-available">—</strong>
+    <p>Free for presets, IRs, and samples <span id="data-health" class="usage-health" hidden>Low space</span></p>
+  </div>
+  <div class="partition-layout">
+    <section id="system-usage" class="partition-view" aria-labelledby="system-title" hidden>
+      <div class="partition-heading"><h3 id="system-title">System partition</h3><p class="usage-caption" id="system-capacity"></p></div>
+      <div id="system-bar" class="usage-bar" aria-hidden="true"></div>
+      <ul id="system-legend" class="usage-legend" aria-label="System partition usage"></ul>
+    </section>
+    <section id="data-usage" class="partition-view" aria-labelledby="data-title" hidden>
+      <div class="partition-heading"><h3 id="data-title">Data partition</h3><p class="usage-caption" id="data-capacity"></p></div>
+      <div id="data-usage-bar" class="usage-bar" aria-hidden="true"></div>
+      <ul id="data-legend" class="usage-legend" aria-label="Data partition usage"></ul>
+    </section>
+  </div>
+  <p id="usage-scale" class="usage-note">Each section is scaled to its own partition.</p>
+  <p id="data-note" class="usage-note" role="status"></p>
+  <details class="card-details">
+    <summary>Card details</summary>
+    <div id="geometry-details"></div>
+    <p id="preset-location" class="fine-print"></p>
+  </details>
+</section>
+<div class="section-title"><div><p class="eyebrow">OTHER STORAGE LOCATIONS</p><h2>System, flash &amp; memory</h2></div><span class="muted" id="last-updated">Updated just now</span></div><section id="storage-cards" class="storage-grid" aria-label="Other storage locations"></section>
+<section id="breakdown" class="breakdown-panel"><div class="section-title"><div><p class="eyebrow">WHERE THE SPACE GOES</p><h2>Inside data storage</h2><p class="muted">Inspect top-level folders in the writable data area.</p></div><button id="scan" class="button secondary">Inspect folders <span>↗</span></button></div><div id="breakdown-rows" class="breakdown-rows"><p class="empty">Run a folder inspection to see what is using this space.</p></div><p class="fine-print">Folder sizes count allocated space. Shared files, compression and filesystem metadata can make totals differ from the capacity meter. Inspecting does not remove files.</p><details><summary>Why can the SD card have space while data storage is full?</summary><p>The SD card is divided into separate partitions. This manager shows the filesystem space available to each one. Unpartitioned capacity and unused space inside another partition are not automatically available to presets or community installs.</p></details></section>
+<footer class="page-footer"><span class="footer-mark">Poly / View</span><span>A place for everything you make.</span><span>Local network · No cloud required</span></footer>
+</div>
+<section id="presets" class="library-panel preset-page" hidden><div class="section-title library-heading"><div><p class="eyebrow">MADE ON HECTOR</p><h1>Preset Library <span class="count" id="preset-count">0</span></h1><p class="muted">Complete saved patches, including the files inside each preset.</p></div><div class="library-actions"><button id="refresh-presets" class="button secondary">Refresh</button><button id="backup" class="button secondary"><span>↓</span> Back up library</button><button id="show-upload" class="button primary"><span>＋</span> Upload preset</button></div></div><div class="library-toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find a preset…" aria-label="Find a preset"></label><label class="bank-filter">Bank<select id="bank-filter"><option value="all">All banks</option><option value="beebo">Beebo</option><option value="digit">Digit</option></select></label><span id="results-label" class="muted"></span></div><div class="preset-table"><div class="table-head"><span>PRESET NAME</span><span>BANK</span><button id="preset-sort-date" type="button" class="preset-sort-date" aria-label="Sort by saved date, newest first.">SAVED DATE <span id="preset-sort-direction" aria-hidden="true">↕</span></button><span>ACTIONS</span></div><div id="preset-rows"></div><div id="empty" class="empty" hidden>No presets match your search.</div></div><button id="load-more" class="text-button load-more" hidden>Show more presets ↓</button><div class="library-footer"><span>↳</span> Backups download to this browser. Unsaved edits and assets outside preset folders are not included.</div></section>
+<section id="audio-library" class="library-panel audio-page" hidden>
+  <div class="section-title library-heading">
+    <div><p class="eyebrow">WORKSPACE</p><h1>Audio Library</h1><p class="muted">Manage the imported IRs and Sample Box sounds stored on Hector.</p></div>
+    <div class="library-actions"><button id="audio-refresh" class="button secondary">Refresh</button><button id="audio-upload-open" class="button primary" disabled>＋ Upload WAV</button></div>
+  </div>
+  <div class="library-toolbar">
+    <label class="bank-filter">Library<select id="audio-kind"><option value="reverb">Reverb IRs</option><option value="cabinet">Cabinet IRs</option><option value="samples">Samples</option></select></label>
+    <label class="bank-filter">Folder<select id="audio-folder"><option value="*">All folders</option></select></label>
+    <span id="audio-count" class="muted" role="status"></span>
+  </div>
+  <div class="preset-table">
+    <div class="audio-table-head"><span>FILE</span><span>SIZE</span><span>ACTIONS</span></div>
+    <div id="audio-rows"></div>
+    <p id="audio-empty" class="empty">Reading the library…</p>
+  </div>
+  <button id="audio-more" class="text-button load-more" hidden>Show more files ↓</button>
+  <p class="library-footer" id="audio-format"></p>
+</section>
+<section id="remote-desktop" hidden>
+  <div class="page-heading">
+    <div><p class="eyebrow">WORKSPACE</p><h1>Remote Desktop</h1><p class="subheading">See and control Hector’s live touchscreen.</p></div>
+    <span class="pill" id="desktop-mode">DISCONNECTED</span>
+  </div>
+  <div class="desktop-panel" id="desktop-panel">
+    <div class="desktop-toolbar">
+      <div class="desktop-control-row">
+        <button type="button" class="button secondary desktop-shift desktop-shift-left" id="desktop-shift" aria-label="Shift, left side" aria-controls="desktop-screen" aria-pressed="false" hidden>Shift</button>
+        <div class="desktop-actions" id="desktop-actions">
+          <button type="button" class="button primary" id="desktop-connect">Connect viewer</button>
+          <button type="button" class="button primary" id="desktop-control" hidden>Take Control</button>
+          <button type="button" class="button secondary" id="desktop-fullscreen" hidden>Full screen</button>
+          <button type="button" class="button secondary" id="desktop-disconnect" hidden>Disconnect</button>
+        </div>
+        <button type="button" class="button secondary desktop-shift desktop-shift-right" id="desktop-shift-right" aria-label="Shift, right side" aria-controls="desktop-screen" aria-pressed="false" hidden>Shift</button>
+      </div>
+      <div class="desktop-status-row" id="desktop-status-row"><p id="desktop-status" role="status">Enable screen sharing in Network Connection on Hector.</p><strong id="desktop-held" role="status" hidden>Holding</strong></div>
+      <p id="desktop-hold-hint" hidden>Tap <kbd>Shift</kbd>, then tap a module or input, lift your finger, and tap its destination or Delete. You can also drag between them with Shift on. Tap Shift again to cancel. On a keyboard, hold Shift while clicking or dragging. Click a text field on Hector to type with your keyboard.</p>
+    </div>
+    <div id="desktop-display" class="desktop-display" hidden><canvas id="desktop-screen" width="1280" height="720" tabindex="0" aria-label="Live Hector touchscreen"></canvas></div>
+  </div>
+</section>
+<section id="module-manager" hidden>
+  <div class="page-heading">
+    <div><p class="eyebrow">COMMUNITY MODULES</p><h1>Module Manager</h1><p class="subheading">Browse Hector’s catalog and manage compatible community packages.</p></div>
+    <div class="library-actions"><button id="modules-refresh" type="button" class="button secondary">Refresh</button><button id="modules-restart-open" type="button" class="button secondary" hidden>Restart Hector</button></div>
+  </div>
+  <div class="manager-tabs" role="tablist" aria-label="Module Manager sections">
+    <button type="button" id="manager-tab-installed" role="tab" aria-selected="true" aria-controls="manager-installed-view" data-manager-tab="installed">Installed modules</button>
+    <button type="button" id="manager-tab-repositories" role="tab" aria-selected="false" aria-controls="manager-repositories-view" data-manager-tab="repositories">Repositories <span id="repository-count">0</span></button>
+    <button type="button" id="manager-tab-releases" role="tab" aria-selected="false" aria-controls="manager-releases-view" data-manager-tab="releases">Release packages</button>
+  </div>
+  <p id="modules-restart" class="module-notice" role="status" hidden></p>
+  <p id="modules-message" class="module-message" role="status"></p>
+  <section id="module-install-progress" class="module-panel" aria-labelledby="module-progress-title" hidden>
+    <header class="module-panel-head"><div><h2 id="module-progress-title">Install progress</h2><p id="module-progress-summary"></p></div></header>
+    <div id="module-progress-phase" class="module-progress-phase" role="status"></div>
+    <ul id="module-progress-rows" class="module-rows"></ul>
+  </section>
+  <div id="manager-installed-view" role="tabpanel" aria-labelledby="manager-tab-installed">
+  <section class="module-panel" aria-labelledby="native-modules-title">
+    <header class="module-panel-head">
+      <div><h2 id="native-modules-title">Hector’s installed catalog</h2><p id="native-module-count" class="native-module-count muted" role="status">Reading Hector’s catalog…</p></div>
+      <label class="search native-module-search">
+        <svg class="ui-icon" aria-hidden="true"><use href="#icon-search"/></svg>
+        <input id="native-module-search" type="search" placeholder="Find a module" aria-label="Find a module">
+      </label>
+    </header>
+    <div id="native-module-groups" hidden>
+      <details class="native-module-group" id="native-community">
+        <summary>Community modules <span class="native-module-total"></span></summary>
+        <ul class="module-rows"></ul>
+      </details>
+      <details class="native-module-group" id="native-stock">
+        <summary>Stock modules <span class="native-module-total"></span><span class="module-status"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lock"/></svg>Protected</span></summary>
+        <ul class="module-rows"></ul>
+      </details>
+      <details class="native-module-group" id="native-protected">
+        <summary>Other protected entries <span class="native-module-total"></span><span class="module-status"><svg class="ui-icon" aria-hidden="true"><use href="#icon-lock"/></svg>Protected</span></summary>
+        <ul class="module-rows"></ul>
+      </details>
+    </div>
+    <p id="native-module-empty" class="native-module-empty muted" hidden>No modules match this search.</p>
+  </section>
+  <section class="module-panel" aria-labelledby="module-installed-title">
+    <header class="module-panel-head"><div><h2 id="module-installed-title">Managed by Poly / View</h2><p>Verified packages and changes waiting for a restart.</p></div></header>
+    <ul id="module-installed" class="module-rows"></ul>
+  </section>
+  </div>
+  <div id="manager-repositories-view" role="tabpanel" aria-labelledby="manager-tab-repositories" hidden>
+    <div class="repository-heading"><div><h2>Creators &amp; repositories</h2><p class="muted">Browse verified modules from your favorite creators.</p></div><div class="repository-heading-actions"><button type="button" class="button secondary" id="repository-add-open">＋ Add repository</button><button type="button" class="button primary" id="creator-add-open">＋ Add Creator</button></div></div>
+    <div class="repository-connections" id="repository-connections"></div>
+    <div class="repository-heading repository-library-heading"><div><h2>Module library <span class="count" id="repository-module-count">0</span></h2><p class="muted">Tap a module to show or hide details.</p></div><div class="repository-heading-actions"><button type="button" class="text-button" id="repository-check-all">Check all sources</button><button type="button" class="text-button" id="repository-collapse" hidden>Hide details</button></div></div>
+    <div class="repository-filters"><span class="muted">Newest verified releases</span><label><input type="checkbox" id="repository-beta" checked> Include beta / test releases</label></div>
+    <div class="repository-list-head" aria-hidden="true"><span>MODULE</span><span>RELEASE</span><span>STATUS</span></div>
+    <div id="repository-modules" class="repository-modules"></div>
+    <p id="repository-empty" class="empty">Choose Check for updates to find verified modules.</p>
+    <p id="repository-error" class="error" role="alert"></p>
+    <p class="repository-trust">No automatic internet checks. Every package is verified before installation; connecting a creator or repository does not approve unsigned packages.</p>
+  </div>
+  <div id="manager-releases-view" role="tabpanel" aria-labelledby="manager-tab-releases" hidden>
+  <section class="module-panel" aria-labelledby="module-queue-title">
+    <header class="module-panel-head">
+      <div><h2 id="module-queue-title">Release packages</h2><p>Upload a module ZIP. Only packages from verified developers are accepted.</p></div>
+      <label class="button secondary module-upload"><span>↑ Upload ZIPs</span><input id="module-files" type="file" accept=".zip,application/zip" multiple aria-label="Upload ZIPs" disabled></label>
+    </header>
+    <ul id="native-release-queue" class="module-rows" hidden></ul>
+    <ul id="module-queue" class="module-rows"></ul>
+    <footer class="module-panel-head module-batch">
+      <span id="module-count">0 selected</span><button id="modules-install" class="button install" type="button" disabled>Install selected</button>
+    </footer>
+  </section>
+  </div>
+</section>
+</div></main></div>
+<dialog id="creator-add-dialog" aria-labelledby="creator-add-title">
+  <form id="creator-add-form">
+    <p class="eyebrow">YOUR MODULE SOURCES</p><h2 id="creator-add-title">Add Creator</h2>
+    <p>Find verified module releases across a creator’s public repositories. Saving a creator does not contact GitHub.</p>
+    <label for="creator-url">GitHub profile URL</label>
+    <input id="creator-url" type="url" placeholder="https://github.com/creator" required autocomplete="off">
+    <p class="muted">Jahmontee is already included as your default creator.</p>
+    <p id="creator-add-error" class="error" role="alert"></p>
+    <div class="dialog-actions"><button type="button" class="button secondary" id="creator-add-cancel">Cancel</button><button type="submit" class="button install" id="creator-add-submit">Add Creator</button></div>
+  </form>
+</dialog>
+<dialog id="repository-add-dialog" aria-labelledby="repository-add-title">
+  <form id="repository-add-form">
+    <p class="eyebrow">YOUR REPOSITORIES</p><h2 id="repository-add-title">Add a repository</h2>
+    <p>Save an address for module releases. Adding it does not contact GitHub. Choose Check for updates when you are ready.</p>
+    <label for="repository-url">GitHub repository URL</label>
+    <input type="url" id="repository-url" required autocomplete="off" placeholder="https://github.com/creator/module">
+    <p class="muted">Only packages signed by a verified publisher can be installed.</p>
+    <p id="repository-add-error" class="error" role="alert"></p>
+    <div class="dialog-actions"><button type="button" class="button secondary" id="repository-add-cancel">Cancel</button><button type="submit" class="button install" id="repository-add-submit">Add repository</button></div>
+  </form>
+</dialog>
+<dialog id="native-release-dialog" aria-labelledby="native-release-title">
+  <form id="native-release-form">
+    <h2 id="native-release-title"></h2>
+    <p id="native-release-note"></p>
+    <label id="native-release-save"><input type="checkbox" id="native-release-saved"> My current patch is saved.</label>
+    <p id="native-release-error" class="error" role="alert"></p>
+    <div class="dialog-actions">
+      <button id="native-release-cancel" type="button" class="button secondary" autofocus>Cancel</button>
+      <button id="native-release-confirm" type="submit" class="button primary"></button>
+    </div>
+  </form>
+</dialog>
+<dialog id="modules-restart-dialog" aria-labelledby="modules-restart-title">
+  <form id="modules-restart-form">
+    <h2 id="modules-restart-title">Restart Hector?</h2>
+    <p id="modules-restart-note"></p>
+    <p>Save any patch edits you want to keep. Poly / View will disconnect while Hector restarts.</p>
+    <p id="modules-restart-error" class="error" role="alert"></p>
+    <div class="dialog-actions">
+      <button type="button" class="button secondary" id="modules-restart-cancel" autofocus>Cancel</button>
+      <button type="submit" class="button primary" id="modules-restart-confirm">Restart Hector</button>
+    </div>
+  </form>
+</dialog>
+<dialog id="module-review" aria-labelledby="module-review-title" aria-describedby="module-review-note module-review-dependency">
+  <form id="module-review-form">
+    <h2 id="module-review-title"></h2>
+    <ul id="module-review-list"></ul>
+    <p id="module-review-scope" hidden></p>
+    <p id="module-review-dependency" role="status" hidden></p>
+    <ul id="module-review-presets" aria-label="Affected saved presets" hidden></ul>
+    <p id="module-review-note" class="module-notice"></p>
+    <label id="module-review-save" hidden><input id="module-review-saved" type="checkbox"> My current patch is saved.</label>
+    <p id="module-review-error" class="error" role="alert"></p>
+    <div class="dialog-actions">
+      <button type="button" id="module-review-cancel" class="button secondary" autofocus>Cancel</button>
+      <button type="submit" id="module-review-confirm" class="button primary">Confirm</button>
+    </div>
+  </form>
+</dialog>
+<dialog id="upload-dialog"><form id="upload-form"><button class="dialog-close" type="button" aria-label="Close upload">×</button><p class="eyebrow">BRING SOMETHING BACK</p><h2>Upload a preset.</h2><p>Choose a ZIP containing one complete <strong>.ingen</strong> preset folder, including <strong>main.ttl</strong> and its saved module state.</p><label class="dropzone" id="dropzone"><span>↑</span><strong id="file-name">Choose a preset ZIP</strong><small>or drop it here · up to 16 MiB</small><input type="file" id="upload-file" accept=".zip,application/zip" required></label><label class="field-label" for="upload-bank">Destination bank</label><select id="upload-bank"><option value="beebo">Hector / Beebo (Recommended)</option><option value="digit">Digit</option></select><p class="upload-note">Existing presets are never overwritten. Keep Hector’s Save operation finished while transferring. Open Hector’s preset browser again to find the new preset.</p><p id="upload-error" class="error" role="alert"></p><div class="dialog-actions"><button type="button" class="button secondary dialog-cancel">Cancel</button><button id="upload-submit" class="button primary" type="submit">Upload to Hector <span>↑</span></button></div></form></dialog>
+<dialog id="audio-upload-dialog">
+  <form id="audio-upload-form">
+    <h2>Upload a WAV</h2>
+    <p id="audio-upload-note"></p>
+    <label class="field-label" for="audio-upload-folder">Destination folder</label>
+    <select id="audio-upload-folder"></select>
+    <label class="field-label" for="audio-file">WAV file</label>
+    <input id="audio-file" type="file" accept=".wav,audio/wav" required>
+    <p id="audio-upload-error" class="error" role="alert"></p>
+    <div class="dialog-actions"><button type="button" class="button secondary" id="audio-upload-cancel">Cancel</button><button type="submit" class="button primary" id="audio-upload-submit">Upload to Hector</button></div>
+  </form>
+</dialog>
+<dialog id="delete-dialog">
+  <form id="delete-form">
+    <p class="eyebrow">CONFIRM DELETION</p>
+    <h2 id="delete-title">Delete this item?</h2>
+    <p id="delete-name" class="delete-name"></p>
+    <p id="delete-note"></p>
+    <p id="delete-error" class="error" role="alert"></p>
+    <div class="dialog-actions"><button type="button" class="button secondary" id="delete-cancel" autofocus>Cancel</button><button type="submit" class="button danger" id="delete-submit">Delete</button></div>
+  </form>
+</dialog>
+<dialog id="reconnect-dialog" aria-labelledby="reconnect-title"><h2 id="reconnect-title">Hector is restarting</h2><p id="reconnect-note">Please wait. The sign-in screen will return when Hector is back online.</p><div class="dialog-actions"><button id="reconnect-return" class="button secondary" type="button">Return to sign-in</button></div></dialog>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<small id="installed-version" class="installed-version" aria-label="Installed Poly View version"></small>
+</body></html>

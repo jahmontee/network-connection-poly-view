@@ -1,0 +1,1162 @@
+[
+  {
+    "installed": "etc/systemd/system/hector-ethernet-panel.service",
+    "sha256": "c1fa94d4e675328dd111d37d06f71deb39c3e30eaa53c34744321ba22112f3a9",
+    "source": "payload/etc/systemd/system/hector-ethernet-panel.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-link-sync-control.service",
+    "sha256": "31c82d9e8a6a3f8dcc77d1a79b0b8a589bc5f10c874d74724542191b6a9d9aa2",
+    "source": "payload/etc/systemd/system/hector-link-sync-control.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-link-sync-ethernet.service",
+    "sha256": "77ba223c3c33b2a35e33e04ef397384e4a50299060014ea8a0a32a14059ebb0b",
+    "source": "payload/etc/systemd/system/hector-link-sync-ethernet.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-link-sync-wifi.service",
+    "sha256": "7e3a2d84a5c48c415a9c7ea0e764f88345fa2a95b4773f3c86c4bb4059db1f82",
+    "source": "payload/etc/systemd/system/hector-link-sync-wifi.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-audio-support.service",
+    "sha256": "cd6c84f18f154221fc0f9cede2f79b9138c1061956918397b12e6e2253403ed5",
+    "source": "payload/etc/systemd/system/hector-module-audio-support.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-batch.service",
+    "sha256": "c1cd2d396805d4910cfb99c5306747583ccf991b725aaf05f9bd145123120dda",
+    "source": "payload/etc/systemd/system/hector-module-batch.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-catalog.service",
+    "sha256": "3dbf4797da2ae2a594373786a701817cfa8a1c72ca45ce5e050ca16e1c754f01",
+    "source": "payload/etc/systemd/system/hector-module-catalog.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-restart.socket",
+    "sha256": "f6d8ff96d78c05359632eacf9ed9f568f01bfb389a6ab337f04f25d37a346d69",
+    "source": "payload/etc/systemd/system/hector-module-restart.socket"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-restart@.service",
+    "sha256": "f62c3eab1603bc02881cca3eebbdd82c52b9870c25c4a50b4033e95d1f71d1fd",
+    "source": "payload/etc/systemd/system/hector-module-restart@.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-network-panel.service",
+    "sha256": "219a066aa0c36d657f6da3ed5031bb67821fa7371c7c5cbb4b93aa5469e36f9e",
+    "source": "payload/etc/systemd/system/hector-network-panel.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-flash-bootstrap.service",
+    "sha256": "f679e58f17bccef78608ad32a44a6eff9536490e0caca7273c7593b65026cab9",
+    "source": "payload/etc/systemd/system/hector-platform-flash-bootstrap.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-flash-status.service",
+    "sha256": "019595ea13886f29bf45740ad81ddc5b4caebf64cfff3855b430cfc232301b77",
+    "source": "payload/etc/systemd/system/hector-platform-flash-status.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-recovery.service",
+    "sha256": "c20cbede39e0ef47e906d62aa876bbf52c71d7e537a126ffcd8ff6249f7d9cec",
+    "source": "payload/etc/systemd/system/hector-platform-recovery.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-update.service",
+    "sha256": "281acf5ba90ad0a7e29ee6442ae8d8ef9753ab31c436ad1137395bb4e1fa2302",
+    "source": "payload/etc/systemd/system/hector-platform-update.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-verify.service",
+    "sha256": "1448e2e783cc9c3bb1367bbf25be1712748d3c43ce31688989a6a666d96d58ba",
+    "source": "payload/etc/systemd/system/hector-platform-verify.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-remote-input.service",
+    "sha256": "69e91e9b32caf4042e90c168e680e9a7571312442c1c6ef11d5002885a8b0fdd",
+    "source": "payload/etc/systemd/system/hector-remote-input.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-remote-screen.service",
+    "sha256": "a10d173623e19fbe30bf2bec600cf70fd6b47c1ec175f19eebd20ce467a6b6f5",
+    "source": "payload/etc/systemd/system/hector-remote-screen.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-repository-fetch.socket",
+    "sha256": "5c120cd67359973f703552f8dea96a1b154068757c48bf898cd5ba855eb63b7d",
+    "source": "payload/etc/systemd/system/hector-repository-fetch.socket"
+  },
+  {
+    "installed": "etc/systemd/system/hector-repository-fetch@.service",
+    "sha256": "d78602e15095b650927292ec0be1c4c8de3f66642d61999b991dfcfd0739127c",
+    "source": "payload/etc/systemd/system/hector-repository-fetch@.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-storage-inspector.service",
+    "sha256": "ca7ead9741f12bc2dd8b2c6e0486caa2f38c707f366d6240f87088c26cd0a62e",
+    "source": "payload/etc/systemd/system/hector-storage-inspector.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-storage-manager.service",
+    "sha256": "0056b986d5b19d61b0376b7d9ef57143689b7a5e2d5139716a6c7b853c010625",
+    "source": "payload/etc/systemd/system/hector-storage-manager.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-storage-setup.service",
+    "sha256": "56a60c6b29bcd0696f3728e9b86c942e376c314f762a425b1bbc5322172e6e4b",
+    "source": "payload/etc/systemd/system/hector-storage-setup.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-wifi-manager.service",
+    "sha256": "0614935b4e432f6107e73ba882e2372294b22001c5803905b34dbe3ff6bd22cb",
+    "source": "payload/etc/systemd/system/hector-wifi-manager.service"
+  },
+  {
+    "installed": "etc/systemd/system/jack.service.d/95-poly-view-modules.conf",
+    "sha256": "bd1adf4633f8db47a0cb8d2beac306cd0348d8747944090b75b1e48cfac77278",
+    "source": "payload/etc/systemd/system/jack.service.d/95-poly-view-modules.conf"
+  },
+  {
+    "installed": "etc/systemd/system/lightdm.service.d/95-poly-view-modules.conf",
+    "sha256": "bd1adf4633f8db47a0cb8d2beac306cd0348d8747944090b75b1e48cfac77278",
+    "source": "payload/etc/systemd/system/lightdm.service.d/95-poly-view-modules.conf"
+  },
+  {
+    "installed": "etc/systemd/system/multi-user.target.d/95-poly-view-platform.conf",
+    "sha256": "ed630b0e63904768338544cab6f14b59a064a17ea3fc1d6f8e932fbf4cf2e42c",
+    "source": "payload/etc/systemd/system/multi-user.target.d/95-poly-view-platform.conf"
+  },
+  {
+    "installed": "etc/tmpfiles.d/hector-module-catalog.conf",
+    "sha256": "7d226a8347a040df9f3f84ff160605a6d2f0a17d7da07ce1eb2cb9fa5658a410",
+    "source": "payload/etc/tmpfiles.d/hector-module-catalog.conf"
+  },
+  {
+    "installed": "home/debian/UI/browser_access_407.py",
+    "sha256": "58f6716f307d3939bb363e4d21523d65db8dcc325958e505f63bdbc91462d707",
+    "source": "payload/home/debian/UI/browser_access_407.py"
+  },
+  {
+    "installed": "home/debian/UI/desktop_keys.py",
+    "sha256": "3cc10ba040d529d4b79bac0471977413a2f0a9ec0bb0dd52c2b9878bffe65ba8",
+    "source": "payload/home/debian/UI/desktop_keys.py"
+  },
+  {
+    "installed": "home/debian/UI/ethernet_407.py",
+    "sha256": "a4252ed44909a53d2c50b62b6f1900139488a65575188a2cd617aff94cfb157c",
+    "source": "payload/home/debian/UI/ethernet_407.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen.py",
+    "sha256": "fac153b7ddb35c8d4046320cd314444caef26ebf25b674acae89fb28ae6fe0f1",
+    "source": "payload/home/debian/UI/ingen.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "07a0da4928d553c1840f80e92e09cc119157e524550bdaa43a02a77d42fe45e0",
+    "source": "payload-variants/07a0da4928d553c1840f80e92e09cc119157e524550bdaa43a02a77d42fe45e0/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "1ae2b75108c0b490cd99b724ccdeb3ad1dc61f75ca9f58e28c30c3ecebadba1c",
+    "source": "payload/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "2bb820a5936ac747da23999091ad8168f73f833a7923e471c38a66378a0648fd",
+    "source": "payload-variants/2bb820a5936ac747da23999091ad8168f73f833a7923e471c38a66378a0648fd/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5c8415356942531cc82b2410bd203e6b7770fc2c97c1aa2f4cb2c5b57c53a4fa",
+    "source": "payload-variants/5c8415356942531cc82b2410bd203e6b7770fc2c97c1aa2f4cb2c5b57c53a4fa/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5c8eddef9dd38b27da80e582a236ce1c6068e0e4d6ae58aa549a6fa6deab114b",
+    "source": "payload-variants/5c8eddef9dd38b27da80e582a236ce1c6068e0e4d6ae58aa549a6fa6deab114b/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5ee891fe1b2f6c65dae738a96be60ca2964992301cf00084100ac75003471775",
+    "source": "payload-variants/5ee891fe1b2f6c65dae738a96be60ca2964992301cf00084100ac75003471775/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "6a93394fb92926d41acd69491bfd7b8381fb77a4c33eb869783f6a01455af55c",
+    "source": "payload-variants/6a93394fb92926d41acd69491bfd7b8381fb77a4c33eb869783f6a01455af55c/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "9a11ab20b3096d36559219abdcb2904d12c13adf2f1b3a2a15f488e17bbbde29",
+    "source": "payload-variants/9a11ab20b3096d36559219abdcb2904d12c13adf2f1b3a2a15f488e17bbbde29/home/debian/UI/ingen_wrapper.py"
+  },
+  {
+    "installed": "home/debian/UI/local_control_407.py",
+    "sha256": "985eb1f09269da7273426310eaee8b021019daeb176d62be8688153386d02063",
+    "source": "payload/home/debian/UI/local_control_407.py"
+  },
+  {
+    "installed": "home/debian/UI/mala_407.py",
+    "sha256": "4e0c8fda3e7a71b6350135b221d82d7cac63c378b17e3ee371f5a8a93606411d",
+    "source": "payload/home/debian/UI/mala_407.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "3717b63ed2120a8b02423fb047b8b452bd632427ca0962d3139c8cb7ad914c66",
+    "source": "payload-variants/3717b63ed2120a8b02423fb047b8b452bd632427ca0962d3139c8cb7ad914c66/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "436d436b12de9e1e4bdcba3cbd602e24b3fe5e9747f911f7e4bdd33a56aa3251",
+    "source": "payload-variants/436d436b12de9e1e4bdcba3cbd602e24b3fe5e9747f911f7e4bdd33a56aa3251/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "49a0ed3aac5660d3975d5beb6be64efca6029039b457c7567db0180999ddf4e9",
+    "source": "payload-variants/49a0ed3aac5660d3975d5beb6be64efca6029039b457c7567db0180999ddf4e9/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "7a653a9432f031e59884b8bdc17654ca4a79b1f379477a4f8d6294ae6a8e965f",
+    "source": "payload-variants/7a653a9432f031e59884b8bdc17654ca4a79b1f379477a4f8d6294ae6a8e965f/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "90cc2a97a107a9b9c1cef74a80978f4f3218d25a138298ac5c79b3f5cdfe1603",
+    "source": "payload/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "ec626c1b3efeddc820e64e56a4f941a9251ebf0ca84b12074b7c4dcbc07666cd",
+    "source": "payload-variants/ec626c1b3efeddc820e64e56a4f941a9251ebf0ca84b12074b7c4dcbc07666cd/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "f192ade373a1a80f247fa2eb9bf49a1ab447a1ea4faae4256c455f0db4294389",
+    "source": "payload-variants/f192ade373a1a80f247fa2eb9bf49a1ab447a1ea4faae4256c455f0db4294389/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "fa115db874d50117d67e09b9c8a9f86aa85eb3b790f41cb2a050de8571017c81",
+    "source": "payload-variants/fa115db874d50117d67e09b9c8a9f86aa85eb3b790f41cb2a050de8571017c81/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/network_407.py",
+    "sha256": "51c63366b70d40750124cd02d43305241c927c8198a0f625c561389c0c712699",
+    "source": "payload/home/debian/UI/network_407.py"
+  },
+  {
+    "installed": "home/debian/UI/patch_hold_407.py",
+    "sha256": "28c2b233afcfc75d6308ab49ab1650c9cd1170af8a9621c3382c002479cae87c",
+    "source": "payload/home/debian/UI/patch_hold_407.py"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_keyboard.py",
+    "sha256": "843090b8ccb9bcccb0a2fd5c6a2a8ce6045d32dca240832b9c4c4ee90080f0a7",
+    "source": "payload/home/debian/UI/poly_view_keyboard.py"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_module_state.py",
+    "sha256": "def01d850ad979d87d474f3293a69e8522f8c1315cc5e15da37d61ec0862c66d",
+    "source": "payload/home/debian/UI/poly_view_module_state.py"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_native.py",
+    "sha256": "a6c2acb99ff30fb50a061d77101e330ab5b97614fc81f04c17b29c07ad17a6a8",
+    "source": "payload/home/debian/UI/poly_view_native.py"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_usb.py",
+    "sha256": "ed9a6c86b4ac3d9eaa81ca0f4f4fe69475792ca959c46fb05f408a40bc72722c",
+    "source": "payload/home/debian/UI/poly_view_usb.py"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "044c23c0b499366a0add5e0f801f9ab6e1574fdb7543bf97fb3a6fef19d9df12",
+    "source": "payload-variants/044c23c0b499366a0add5e0f801f9ab6e1574fdb7543bf97fb3a6fef19d9df12/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "26bf88f8579e07b150dcffcac4335955242b30ca6b281e89fdf162af38d47a80",
+    "source": "payload-variants/26bf88f8579e07b150dcffcac4335955242b30ca6b281e89fdf162af38d47a80/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "3432241efb353b8a0111b2c671453b728fcdf1612f747a022e7508bb8a74397d",
+    "source": "payload-variants/3432241efb353b8a0111b2c671453b728fcdf1612f747a022e7508bb8a74397d/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "731aa3c3a0b542308645f6eb5bf305d295633f3ca3a8e97f13e989e018aec28e",
+    "source": "payload/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "aa96cddd97c35e24265efe26c4c86c60baac9878b4902f32ee3cc28995f5b5e5",
+    "source": "payload-variants/aa96cddd97c35e24265efe26c4c86c60baac9878b4902f32ee3cc28995f5b5e5/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "be91cdbb8c23208bb08796f0589f443052449b4d9cc1edbef7fbddff426210fc",
+    "source": "payload-variants/be91cdbb8c23208bb08796f0589f443052449b4d9cc1edbef7fbddff426210fc/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "d81cdcbe496fcaa4b2ce3d76c8ba7c0d98999ec038ce2cbce42f4fd45a6489c5",
+    "source": "payload-variants/d81cdcbe496fcaa4b2ce3d76c8ba7c0d98999ec038ce2cbce42f4fd45a6489c5/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ModuleBrowser.qml",
+    "sha256": "d8aebb5e95e40a6acceb3e75e9a98985d6f56f04f503ee5ec2edc4ce00024aee",
+    "source": "payload-variants/d8aebb5e95e40a6acceb3e75e9a98985d6f56f04f503ee5ec2edc4ce00024aee/home/debian/UI/qml/ModuleBrowser.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "4514decad43dcd2414eb204d50e10e629e31617963252a126ca920437ecebb84",
+    "source": "payload-variants/4514decad43dcd2414eb204d50e10e629e31617963252a126ca920437ecebb84/home/debian/UI/qml/PatchBay.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "5d28e4e2a0d37fa40e24535d6b49a8a2c628e7a87bf4f9191a944236340572ec",
+    "source": "payload-variants/5d28e4e2a0d37fa40e24535d6b49a8a2c628e7a87bf4f9191a944236340572ec/home/debian/UI/qml/PatchBay.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "9a23f0c881e7e7c83149968fdf8658565e804520a67b2cea09db80f8a931573c",
+    "source": "payload-variants/9a23f0c881e7e7c83149968fdf8658565e804520a67b2cea09db80f8a931573c/home/debian/UI/qml/PatchBay.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "9febd3c53e2b7845ff54140481d949682a2b8447351927f618df2ea8888a339c",
+    "source": "payload/home/debian/UI/qml/PatchBay.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "3aed0c4e7be338580af9aeb3c0aa705afac8478f4d5ccbcba40ee89dfa32f38b",
+    "source": "payload-variants/3aed0c4e7be338580af9aeb3c0aa705afac8478f4d5ccbcba40ee89dfa32f38b/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "3ff25e80b8336e57c9e4c9e67f32d113a2008bd7c1fc35933f52e32a10a670af",
+    "source": "payload/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "452bfa80df8f2b790c06e640a9c2b29dbefa1dad530e58bbf858c0c7797cdf76",
+    "source": "payload-variants/452bfa80df8f2b790c06e640a9c2b29dbefa1dad530e58bbf858c0c7797cdf76/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "5f8fbb2f96cc1fa1cd540932d8eeaa982c237b4ad6ec4fae59efd517e32a52bb",
+    "source": "payload-variants/5f8fbb2f96cc1fa1cd540932d8eeaa982c237b4ad6ec4fae59efd517e32a52bb/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "8437ca44f65f853f1c932f4f3b0533e5e9e5ad1a7d42d3a8585ada26480dc843",
+    "source": "payload-variants/8437ca44f65f853f1c932f4f3b0533e5e9e5ad1a7d42d3a8585ada26480dc843/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "885b2274ad0b5543e28851a8c182042fc482aca1962f6c0c8da65ac4743b510c",
+    "source": "payload-variants/885b2274ad0b5543e28851a8c182042fc482aca1962f6c0c8da65ac4743b510c/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "98a5e5c50e19c2a580beb71464ed992ae96da9f8e8334cc55e9ffb4267f49eca",
+    "source": "payload-variants/98a5e5c50e19c2a580beb71464ed992ae96da9f8e8334cc55e9ffb4267f49eca/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "e86b91f9f24755bc597d4471a738c98552d5dd9e0e1cc1a1492a97766ff0db12",
+    "source": "payload-variants/e86b91f9f24755bc597d4471a738c98552d5dd9e0e1cc1a1492a97766ff0db12/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "530dd20eef3db4b4d632fc6ffb363303b0bdda9712b96f909bd1e53c56699196",
+    "source": "payload-variants/530dd20eef3db4b4d632fc6ffb363303b0bdda9712b96f909bd1e53c56699196/home/debian/UI/qml/PolyViewNativePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "5953f5a53a8baab8818f134c4c8318b4ca9dab4470ee44cdd452da3c9e7e163b",
+    "source": "payload-variants/5953f5a53a8baab8818f134c4c8318b4ca9dab4470ee44cdd452da3c9e7e163b/home/debian/UI/qml/PolyViewNativePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "b07ca0a03f4faeb3482c54108284d0410e4b91c5a955b80ad02a6fce0b6d6d91",
+    "source": "payload/home/debian/UI/qml/PolyViewNativePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "cf140f429d7649b27f6d3998bde2ad20955b36124ea766ccec138ec7aa54aba5",
+    "source": "payload-variants/cf140f429d7649b27f6d3998bde2ad20955b36124ea766ccec138ec7aa54aba5/home/debian/UI/qml/PolyViewNativePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/Settings.qml",
+    "sha256": "e03d64106377e3997702448c7901d416ea278c69eeae1b5a4a08e5e468334cda",
+    "source": "payload/home/debian/UI/qml/Settings.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/TitleFooter.qml",
+    "sha256": "9265cdbdccd7ca42754382aeb64f4c11c19eed8a3b8836976d0e1059e58da47e",
+    "source": "payload/home/debian/UI/qml/TitleFooter.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/TopLevelWindow.qml",
+    "sha256": "dcf174641a9122d7a791fbdaf6a82686c519da31497724d3131c111cbbe04eb5",
+    "source": "payload/home/debian/UI/qml/TopLevelWindow.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/UsbModules.qml",
+    "sha256": "b2513465c37d6b144129743adca0b06a963285702ba59166afa28fc3498853fc",
+    "source": "payload/home/debian/UI/qml/UsbModules.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/c64/Card.qml",
+    "sha256": "8cb263ab4b5c85645f73c45c923ab423d08cd93722e676470649eb2305b4d658",
+    "source": "payload/home/debian/UI/qml/c64/Card.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/c64/Frame.qml",
+    "sha256": "cca5cfe501e2eb375a52837212611a946ba310c496b6af87f95079117d707f99",
+    "source": "payload/home/debian/UI/qml/c64/Frame.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/c64/Key.qml",
+    "sha256": "9af2fa776fe5ee1a4265dca10ff9c0a188cc08456912410988ee7de56df2dfa5",
+    "source": "payload/home/debian/UI/qml/c64/Key.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/ethernet/FirmwarePanel.qml",
+    "sha256": "86702865a78fefdfd593761532c4fc1d34ea45d0b98eef3d98d4aeede359c74b",
+    "source": "payload/home/debian/UI/qml/ethernet/FirmwarePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsBadge.qml",
+    "sha256": "dbcdce61e96ded2ebacf336f22864febe258129068c113c3a18182f0361b3b88",
+    "source": "payload/home/debian/UI/qml/mala/BeadsBadge.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsKnob.qml",
+    "sha256": "35aa3c699ad9bbca0734471bd2ba099c622544225a2e9cf6db44f5597e57f857",
+    "source": "payload/home/debian/UI/qml/mala/BeadsKnob.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsSwitch.qml",
+    "sha256": "6e8eb0b01bfecb22e217449ff28bae2a2cd9cbfabe998a24963c6cde6290e75d",
+    "source": "payload/home/debian/UI/qml/mala/BeadsSwitch.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/Editor.qml",
+    "sha256": "5c55d711a14029959923e465cef081d050dd5fc3989db9610f7d8ae4a27bedab",
+    "source": "payload/home/debian/UI/qml/mala/Editor.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/EnvelopeGraphic.qml",
+    "sha256": "910cfef6980cbd2d51e1045cabdb85ad85496cbc59add15109b31cf210fc93db",
+    "source": "payload/home/debian/UI/qml/mala/EnvelopeGraphic.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/FirmwarePanel.qml",
+    "sha256": "068d4fa4dc43ce82f07ad730c45da33d07837604d4551c7b4b3852aeeb4083ff",
+    "source": "payload/home/debian/UI/qml/mala/FirmwarePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/LibraryPanel.qml",
+    "sha256": "c350a3e0f488f7fbfdf9bd7a82f058172a92448ab72a594766d00a5991ff7e1b",
+    "source": "payload/home/debian/UI/qml/mala/LibraryPanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/ModeHelpDialog.qml",
+    "sha256": "21e44d6b59de3a73e05f581d4ea2c90ae1424a79afa9967de40a062fe993ceeb",
+    "source": "payload/home/debian/UI/qml/mala/ModeHelpDialog.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/ParameterSlider.qml",
+    "sha256": "e58da193cffe586dfa1495525abaec486719a16207969a16bc65c687f346f127",
+    "source": "payload/home/debian/UI/qml/mala/ParameterSlider.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/TouchButton.qml",
+    "sha256": "10ad2eafe0e093dba6c3dde1d74807643e23ba570cdc6875c55754d07f4f560c",
+    "source": "payload/home/debian/UI/qml/mala/TouchButton.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/knob-body.png",
+    "sha256": "a5d0b21e50e17463b1299a7bb64407c330e13cc945d731db08978aef9f8a6e4b",
+    "source": "payload/home/debian/UI/qml/mala/assets/knob-body.png"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/silver-button.png",
+    "sha256": "2eee4b60256d20bb2365a3e8f9e21cc75744cea3dca90c6a5c85b0038961287b",
+    "source": "payload/home/debian/UI/qml/mala/assets/silver-button.png"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/silver-panel.png",
+    "sha256": "97463f82691a5dd823c15994bdfb3d7bf8a65be007aff91b9e3c9f6ce457b91f",
+    "source": "payload/home/debian/UI/qml/mala/assets/silver-panel.png"
+  },
+  {
+    "installed": "home/debian/UI/qml/network/BrowserPasswordPanel.qml",
+    "sha256": "21b27588acfb769f9d4264cbd6b31041a5b8f8bb5367dde39c1c14ec6e1f09b2",
+    "source": "payload/home/debian/UI/qml/network/BrowserPasswordPanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/network/FirmwarePanel.qml",
+    "sha256": "44471181ca3cdcee368f22520da81d1f406c556824ddc9eb9990001659836e60",
+    "source": "payload/home/debian/UI/qml/network/FirmwarePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/network/WifiPanel.qml",
+    "sha256": "c988ce8e7a1fa726f880db0094d2c64521eee26df27db0efb9810c5e44ff4b34",
+    "source": "payload/home/debian/UI/qml/network/WifiPanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/wifi/FirmwarePanel.qml",
+    "sha256": "ea24c1d543c9a652090a56f897fd2d7e53c6588e98f41136978028b2acd73056",
+    "source": "payload/home/debian/UI/qml/wifi/FirmwarePanel.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/wifi/LinkButton.qml",
+    "sha256": "d9c6c7332cdfdeccf29e03fa68827b98010bfdf2f4eecb8676f201861c607487",
+    "source": "payload/home/debian/UI/qml/wifi/LinkButton.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/wifi/LinkChoice.qml",
+    "sha256": "c79c1299a52fef860a0c36a1741e25c29080199746dccf7e2eb14bc55a716d49",
+    "source": "payload/home/debian/UI/qml/wifi/LinkChoice.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/wifi/WifiKeyboard.qml",
+    "sha256": "3cde5668315decd98a7bcb4d0a9dfe1f5ec0f43763a8ae5a1b70fc79f3c73ccf",
+    "source": "payload/home/debian/UI/qml/wifi/WifiKeyboard.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/wifi/WifiPage.qml",
+    "sha256": "60b26cd95a1e7fec4e49f8e68e83ab51e336a63d0e371584f155a84ee9bc89c9",
+    "source": "payload/home/debian/UI/qml/wifi/WifiPage.qml"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "0b9303171b7bc5d2adc7f85935c4b004761282cf09299fbc378af28fbf443fb4",
+    "source": "payload-variants/0b9303171b7bc5d2adc7f85935c4b004761282cf09299fbc378af28fbf443fb4/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "1db57fd6d10eac3d1006cb7f1ea8d6c90bba15c122b59ee39e671ec47a221e06",
+    "source": "payload-variants/1db57fd6d10eac3d1006cb7f1ea8d6c90bba15c122b59ee39e671ec47a221e06/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "241f302de319d2cb4387dff65e40a4c0456ec70c88a96f0a4588ae202e37b7cc",
+    "source": "payload-variants/241f302de319d2cb4387dff65e40a4c0456ec70c88a96f0a4588ae202e37b7cc/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "5348cee539f416016dd623a6e6f238de20eea93bb2f8031fbb12de84da454ec6",
+    "source": "payload-variants/5348cee539f416016dd623a6e6f238de20eea93bb2f8031fbb12de84da454ec6/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "5ee80bacf74c892b22dc95291a81f0bab7ed2b914ecac667547b6e4908e67499",
+    "source": "payload/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "6b0b4ad84c7a56f71e89e8795f8bb2eea4da68e13d0b661e5faba732010dd316",
+    "source": "payload-variants/6b0b4ad84c7a56f71e89e8795f8bb2eea4da68e13d0b661e5faba732010dd316/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "70494a3c875e2cbd6ba31f5c2a82a302e396b33b3e582fc627d2c2362caa5f2b",
+    "source": "payload-variants/70494a3c875e2cbd6ba31f5c2a82a302e396b33b3e582fc627d2c2362caa5f2b/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "8719af7cad6a08179adf4af25390c3f1ea0903b2958ae77d0f0ae974ecc4c8b7",
+    "source": "payload-variants/8719af7cad6a08179adf4af25390c3f1ea0903b2958ae77d0f0ae974ecc4c8b7/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "a1c99607be8c963d0eae71725a8f32b6eca58788440673df8266908b21cd7f5f",
+    "source": "payload-variants/a1c99607be8c963d0eae71725a8f32b6eca58788440673df8266908b21cd7f5f/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "d9e9ba5451aa49647915b4b80a0c65c8551e436f7dbb15ad6fdfa2fa77eafcd8",
+    "source": "payload-variants/d9e9ba5451aa49647915b4b80a0c65c8551e436f7dbb15ad6fdfa2fa77eafcd8/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "dfde16a9258b38c88d88c7ee3d93e40f31e08c23916415e869c96b6eefda2449",
+    "source": "payload-variants/dfde16a9258b38c88d88c7ee3d93e40f31e08c23916415e869c96b6eefda2449/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "ebc30780499cea2a62c4ac4f384264b35db8d33592534e1402500560aee7391c",
+    "source": "payload-variants/ebc30780499cea2a62c4ac4f384264b35db8d33592534e1402500560aee7391c/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/wifi_407.py",
+    "sha256": "ced4e280ae901900b4dcdcef58c4e05727cf348858e5e080c1297f8fd75758e4",
+    "source": "payload/home/debian/UI/wifi_407.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/audio_library.py",
+    "sha256": "2e7fcf244280dea918d32472e6604a2ac1622e3292a0a533f06c1998bb1e99e9",
+    "source": "payload/opt/hector-storage-manager/app/audio_library.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/audio_support.py",
+    "sha256": "1e7a7d890ac30cf68e2b87e51721df542af246db443318d243f42081ebf674aa",
+    "source": "payload/opt/hector-storage-manager/app/audio_support.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/browser_access.py",
+    "sha256": "81319155e37994c531578e55fd13ed77cac398644931c7428b5b75106089f9ce",
+    "source": "payload/opt/hector-storage-manager/app/browser_access.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "0be6591ed24b966b0fdebf1a9d845205f3dde1134a7d00c480bfa4c401c31af4",
+    "source": "payload-variants/0be6591ed24b966b0fdebf1a9d845205f3dde1134a7d00c480bfa4c401c31af4/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "240f58fff20bb1210ad16524e332b4ec9a638c3452c4d1b212b1bf5d42311e93",
+    "source": "payload-variants/240f58fff20bb1210ad16524e332b4ec9a638c3452c4d1b212b1bf5d42311e93/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "source": "payload/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "4e205ca5268de7ea4d28c85ccfd8f660c78ee4ac14d5811f95f3eb6ca9f2c467",
+    "source": "payload-variants/4e205ca5268de7ea4d28c85ccfd8f660c78ee4ac14d5811f95f3eb6ca9f2c467/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "984d04cd469c9f8d2e63518569bcce3123c6532e991b03655653beefe8dd1cb3",
+    "source": "payload-variants/984d04cd469c9f8d2e63518569bcce3123c6532e991b03655653beefe8dd1cb3/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "a5e86ff86fe3ec1318f5bccd534a2b6e7ed42107acf7a01186433e4dfb9dbe32",
+    "source": "payload-variants/a5e86ff86fe3ec1318f5bccd534a2b6e7ed42107acf7a01186433e4dfb9dbe32/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "cce2d447a1fead1413fab5e40b80c4a4094162809c4cc16826afae5e6d1ab428",
+    "source": "payload-variants/cce2d447a1fead1413fab5e40b80c4a4094162809c4cc16826afae5e6d1ab428/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "eb251557793ac2f71abd5dacac927d8487613203c665924b6b38466090afaf17",
+    "source": "payload-variants/eb251557793ac2f71abd5dacac927d8487613203c665924b6b38466090afaf17/opt/hector-storage-manager/app/community-catalog.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/core.py",
+    "sha256": "849a5e2617d5ae9a99ef678600cf82eb6f17d7cbe74359b9b804d1fac4cb3516",
+    "source": "payload/opt/hector-storage-manager/app/core.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/desktop_keys.py",
+    "sha256": "3cc10ba040d529d4b79bac0471977413a2f0a9ec0bb0dd52c2b9878bffe65ba8",
+    "source": "payload/opt/hector-storage-manager/app/desktop_keys.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/export_module_inventory.py",
+    "sha256": "a3154f344b7e38ad983311ad9451d583951f03f471f17b4f374abe5930522950",
+    "source": "payload/opt/hector-storage-manager/app/export_module_inventory.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/first_boot.py",
+    "sha256": "70961b489eced4cc37ea94dd6dcfec0e9d34036020366f0afc22c13e63170eab",
+    "source": "payload/opt/hector-storage-manager/app/first_boot.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/inspector.py",
+    "sha256": "3d36f3467891db0adedfad41fb969396cfd1fe8728473ebb7efdb767dd1932ca",
+    "source": "payload/opt/hector-storage-manager/app/inspector.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/link_sync_condition.py",
+    "sha256": "33333f0603f66ad792d0ef8e1f545ee63f46e80559f74b921549744167ce17ce",
+    "source": "payload/opt/hector-storage-manager/app/link_sync_condition.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_batch_service.py",
+    "sha256": "9b0e9d1961c3a35665ea0d555bec3b81fb13f63ef430bc250b730c2e7c9da316",
+    "source": "payload/opt/hector-storage-manager/app/module_batch_service.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_batch_worker.py",
+    "sha256": "21677ad3ae3ecb7804db1d3d706d5cde4e55808fe1844e88d537579aaaff7c03",
+    "source": "payload/opt/hector-storage-manager/app/module_batch_worker.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_manager.py",
+    "sha256": "a918db6ed19bb947160c89afcd1932e9bcb46993bb27d50ff7a0cacbe9b6e25a",
+    "source": "payload/opt/hector-storage-manager/app/module_manager.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_offline.py",
+    "sha256": "d4eac164f50e0fb833dbb2742390350fc130959c7b5c120e53a470e6fe9830d8",
+    "source": "payload/opt/hector-storage-manager/app/module_offline.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_restart.py",
+    "sha256": "75f32069cc91858fc533350275b4bda3ab41dfc8a78862d709b801d1d839e780",
+    "source": "payload/opt/hector-storage-manager/app/module_restart.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_restart_service.py",
+    "sha256": "43f1864c481ac260658624d55656285ca73fe33f5d6067ba553626d644ac9218",
+    "source": "payload/opt/hector-storage-manager/app/module_restart_service.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_usb.py",
+    "sha256": "8f102e8c68e5c650c25b19977eb6a9913b7063473cc0a6c73681eb2d1b2f1e8a",
+    "source": "payload/opt/hector-storage-manager/app/module_usb.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "0a81a77d70586a6a07a36c47bf268fe2e8863a2be927f5b82c00b9088729a25a",
+    "source": "payload-variants/0a81a77d70586a6a07a36c47bf268fe2e8863a2be927f5b82c00b9088729a25a/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "154aa9c979b7c4d0c2f7c58a696bb2631d68d6ebb93afacf784dde932dee6409",
+    "source": "payload-variants/154aa9c979b7c4d0c2f7c58a696bb2631d68d6ebb93afacf784dde932dee6409/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "16624601f39016c8cd25e2601981b122037dd18b055dfbaaa3b7b1b0db38cc0b",
+    "source": "payload-variants/16624601f39016c8cd25e2601981b122037dd18b055dfbaaa3b7b1b0db38cc0b/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "348b07aca8e82af5d12c239aff20e0d4047014f5757e02eb94cb32400ef8445b",
+    "source": "payload-variants/348b07aca8e82af5d12c239aff20e0d4047014f5757e02eb94cb32400ef8445b/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "4a2e18a6ec4ac4d66383127267fefed99b41bf70de6a453e75fe5f0501ecca85",
+    "source": "payload-variants/4a2e18a6ec4ac4d66383127267fefed99b41bf70de6a453e75fe5f0501ecca85/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "a5c03be8c27e4346aaa782969d9bbf3c8795ce35d7302d70cda743b6f8676137",
+    "source": "payload-variants/a5c03be8c27e4346aaa782969d9bbf3c8795ce35d7302d70cda743b6f8676137/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "c6d954f8b832c70290b4b9ca1831e374f56a4a4fed0e47c21915aaec1d461c50",
+    "source": "payload-variants/c6d954f8b832c70290b4b9ca1831e374f56a4a4fed0e47c21915aaec1d461c50/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "caf272a91293648e70dd1d0ac24b686e9bad86b0d63f6461fbcf0fd67d4bb88a",
+    "source": "payload-variants/caf272a91293648e70dd1d0ac24b686e9bad86b0d63f6461fbcf0fd67d4bb88a/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "cdd02d13b0bdf90be129bda424d96fbe9aa1bb2e7265b84c7c548039a0aa7c75",
+    "source": "payload-variants/cdd02d13b0bdf90be129bda424d96fbe9aa1bb2e7265b84c7c548039a0aa7c75/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "d1e939f3575ee8d36102fdf7bdf4f71be0f9db3188173db766a15d0a4928bc8e",
+    "source": "payload/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "d93aa66aa2c607dc601c55bcc2487a58c65829ccd4fddd6451bc691978aa5584",
+    "source": "payload-variants/d93aa66aa2c607dc601c55bcc2487a58c65829ccd4fddd6451bc691978aa5584/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "da4fb8353bbf1e220b911bdb1a56658c92feb1b7ab5eeef1d4a2918b724eeaa6",
+    "source": "payload-variants/da4fb8353bbf1e220b911bdb1a56658c92feb1b7ab5eeef1d4a2918b724eeaa6/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "f7dac5cf78e20b2ce8bee9a66efe6bbb2dd6b28bb570c6c6b511d53302d967e2",
+    "source": "payload-variants/f7dac5cf78e20b2ce8bee9a66efe6bbb2dd6b28bb570c6c6b511d53302d967e2/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_migration.py",
+    "sha256": "95d7fc413584795a37947d32808356f6243046e4a9bd3fa5bec057aa430875cf",
+    "source": "payload/opt/hector-storage-manager/app/native_migration.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_module.py",
+    "sha256": "3a0288012e688b4faa7a1c2b8a5c3900c70074f2e794b84df6bbf9f9a9c1b81c",
+    "source": "payload/opt/hector-storage-manager/app/native_module.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_release.py",
+    "sha256": "cf3f7c707c6df8948ea87a35e858a411ead52fbe44ac66c07647fd04b93807bf",
+    "source": "payload/opt/hector-storage-manager/app/native_release.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_engine.py",
+    "sha256": "189b0340a16b358cfc301379636f1f4068c3cd41f99a35d855bab5c62722d4a8",
+    "source": "payload/opt/hector-storage-manager/app/platform_engine.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_release.py",
+    "sha256": "997f0ef9fe132d22268308a4d9855410578860a4f724357667ed3a0c4d821239",
+    "source": "payload/opt/hector-storage-manager/app/platform_release.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_service.py",
+    "sha256": "c415378a03d64dd070184fb3358ecbeccfaac5d8dee12a814f117797034f66d6",
+    "source": "payload/opt/hector-storage-manager/app/platform_service.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_transaction.py",
+    "sha256": "aa962ccbb06b94a4e717416ae389d56a43bf4ba225ea19b8c04f2cab412bf66d",
+    "source": "payload/opt/hector-storage-manager/app/platform_transaction.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_update.py",
+    "sha256": "5cb6a3b01b1b19b5d3052b616a28d501194cccf8715bab068cfe94aaa3b959eb",
+    "source": "payload/opt/hector-storage-manager/app/platform_update.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/publisher_release.py",
+    "sha256": "98e5261af2093ec51036060e2fbcf53924d027afaa5af7802410e7f96d2ba7fe",
+    "source": "payload/opt/hector-storage-manager/app/publisher_release.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/publishers.json",
+    "sha256": "08f74fec432955d68154236bdf5c0e7393fd1b0f6d1085891783dae554230cc0",
+    "source": "payload/opt/hector-storage-manager/app/publishers.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/remote_desktop.py",
+    "sha256": "8e43ce5486a94136dc01247e88b786bd230eaff689e1cf15bb96c45af1de521f",
+    "source": "payload/opt/hector-storage-manager/app/remote_desktop.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/repository_fetch_service.py",
+    "sha256": "4cdbc1e01141dc8cc626d79455c94b2543dd95490c4d6d99b1d1f84967f825b7",
+    "source": "payload/opt/hector-storage-manager/app/repository_fetch_service.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/repository_manager.py",
+    "sha256": "a4016b462131e0b407c8146b08a35faaa2b6d3e64318596a14a82494ee55f220",
+    "source": "payload/opt/hector-storage-manager/app/repository_manager.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/screen_helper.py",
+    "sha256": "8efe4c558bda59bd8a1a12a142034f6634b63fc76d8875115775f4db7154ec97",
+    "source": "payload/opt/hector-storage-manager/app/screen_helper.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/server.py",
+    "sha256": "1db90f1f00323c28f16b9e5bfae7dfcf1a9735b5018d5253b18e06d4c2518886",
+    "source": "payload/opt/hector-storage-manager/app/server.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/app.js",
+    "sha256": "948f29d60facc31a616ba08be49d055ccc6464c38d3d0dbf91668fd44bd933ff",
+    "source": "payload/opt/hector-storage-manager/app/static/app.js"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/c64.css",
+    "sha256": "d332ab691b90438b76e24978a4f225e1c830bea7e7b5b386587b5dc3f23f689e",
+    "source": "payload/opt/hector-storage-manager/app/static/c64.css"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/favicon.svg",
+    "sha256": "cb0dcede80a45e40a123db11a5dbaa7040e979021bd22509026a481460e31c63",
+    "source": "payload/opt/hector-storage-manager/app/static/favicon.svg"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/fonts/Inter-700.ttf",
+    "sha256": "16586b28b0432e68f0099445946195dc97909ff7744f764eed708b38e61ca6c9",
+    "source": "payload/opt/hector-storage-manager/app/static/fonts/Inter-700.ttf"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/fonts/Inter-800.ttf",
+    "sha256": "5b608ee73c59a14777bba3863bcb4bf01d0888ca0ad94142ccd17edfb702749b",
+    "source": "payload/opt/hector-storage-manager/app/static/fonts/Inter-800.ttf"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/fonts/PressStart2P-Regular.ttf",
+    "sha256": "e224371fadc3bb5268dbdd23bce33b812b6c0287969a0b7018645c0a07081e73",
+    "source": "payload/opt/hector-storage-manager/app/static/fonts/PressStart2P-Regular.ttf"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/index.html",
+    "sha256": "8f1e38c9b826a2dfa3fce87e906362ba3ea7e1f76d77b1a70fb9d517169087a3",
+    "source": "payload/opt/hector-storage-manager/app/static/index.html"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/licenses/OFL-Inter.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "source": "payload/opt/hector-storage-manager/app/static/licenses/OFL-Inter.txt"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/licenses/OFL-PressStart2P.txt",
+    "sha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0",
+    "source": "payload/opt/hector-storage-manager/app/static/licenses/OFL-PressStart2P.txt"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/reconnect.js",
+    "sha256": "306be347e720cef6c3f032cd0d56e1c1dfbfe36c1cf3a5bbbacbc88b137a1496",
+    "source": "payload/opt/hector-storage-manager/app/static/reconnect.js"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/static/style.css",
+    "sha256": "33741830643c16c3d3c9264e9ff4570576bc2e41622c189833df289df69441b4",
+    "source": "payload/opt/hector-storage-manager/app/static/style.css"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/stock407_modules.json",
+    "sha256": "4051b632dbbfe600ca834bc201d4ee1caa36b6291d13687114c4aad3bb094888",
+    "source": "payload/opt/hector-storage-manager/app/stock407_modules.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/storage_metrics.py",
+    "sha256": "4c948bc4aba242e818cf041ea8b401b38b02f5333e99e94f8d4e86c9ac758029",
+    "source": "payload/opt/hector-storage-manager/app/storage_metrics.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_readiness.py",
+    "sha256": "9b4e9c4718c6893e69e7d7089e70cb00fa4999887c3913998f12c3404411316a",
+    "source": "payload/opt/hector-storage-manager/app/system_readiness.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support.py",
+    "sha256": "952600bc6c53598d3dbf93ff39b70558d093baff5c4cbb1a58540788a5332bf9",
+    "source": "payload/opt/hector-storage-manager/app/system_support.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support_contract.py",
+    "sha256": "a3cb431ae3003a4bedbcf8e088b2a33b5e6d1f10a91ad4423e8c2700a13b2e88",
+    "source": "payload/opt/hector-storage-manager/app/system_support_contract.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support_transaction.py",
+    "sha256": "c8de70c82193b8513a3b335bdc806287cca6bb4df6696fcde3a1562adcc77cfe",
+    "source": "payload/opt/hector-storage-manager/app/system_support_transaction.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/usb_release.py",
+    "sha256": "fe2f4b39559bb85b911ea58cfa5d287a78bfe0eaa54d043131042b8bd3827a74",
+    "source": "payload/opt/hector-storage-manager/app/usb_release.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/platform-version.json",
+    "sha256": "0b12fbf78b53410e463d99e808592b7766005e9883f8b189d263dc4cd2b3fde8",
+    "source": "payload/opt/hector-storage-manager/platform-version.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/runtime-version.json",
+    "sha256": "c431c467a6920ada7368322158ac000fcec6bdf90f8490dc08c695388c9bf7c0",
+    "source": "payload/opt/hector-storage-manager/runtime-version.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/LICENSE.txt",
+    "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/LICENSE.txt"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/METADATA",
+    "sha256": "103a993b671c333c467cdafe1d1af460093d30846adb889a9f9fd980476df77a",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/METADATA"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/RECORD",
+    "sha256": "eb622dfde441606875da42bc89229bf42bd432a9135e01465e4c1a5782290586",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/RECORD"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/WHEEL",
+    "sha256": "474e8f0375156074e1c07bf1b9158ca9a19cafe3ee9e25da8708e641114c1246",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/WHEEL"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/entry_points.txt",
+    "sha256": "b4347c7a91b683823bd0b6a4f5dfb5a931db09f07365de450c449c02456e1ff1",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/entry_points.txt"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/top_level.txt",
+    "sha256": "fe41675d8b435ef4561d25e9ac7e77879e803368c37d8f98eec8086a45442262",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress-3.0.2.dist-info/top_level.txt"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/__init__.py",
+    "sha256": "5ee70bb2085ac1231395400067a4e8379a8a67224dbf78a8958620c7cd766b9a",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/__init__.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/__main__.py",
+    "sha256": "e7658922b60a69db068b41bdde310c09f6815da55096e1f2e170667d32d3fbaa",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/__main__.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/adjustments.py",
+    "sha256": "f1ed00a8217a79f5d3ededad82b2cc8b426079d3167839714760ec9a3a8aea12",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/adjustments.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/buffers.py",
+    "sha256": "50bf15244d9056a94e4aa6e30cb97a915a02d484361168bd21b854250c5ecc89",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/buffers.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/channel.py",
+    "sha256": "6b44713fd38f8917e6d29a5ab35d1579299d582980bcf5d390df7b70e8018215",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/channel.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/compat.py",
+    "sha256": "c9eeef06fd122d789c8c9eb600b62b97ceb7314c22b3d3caa9b86c8e20124920",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/compat.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/parser.py",
+    "sha256": "f3c294637d49ced327b97238e8f38714be72607b89e5909ccd5f008fa510b633",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/parser.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/proxy_headers.py",
+    "sha256": "fa16263b0d4e6de75850aaea3703782d999b1af2ab6729bb172c04bf6343070e",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/proxy_headers.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/receiver.py",
+    "sha256": "e4b4903d525a6d6af2b7067068a2a21e01bcd165cfa3f54b2bab4dc529a1cfa2",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/receiver.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/rfc7230.py",
+    "sha256": "0f5fe455e0896b71bebb88c09e26627854cc7b7c6b31abd38d00c46e3f5205fa",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/rfc7230.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/runner.py",
+    "sha256": "1c73f38c5998d7a33e93e80828d0cdacc58db84a17fdd207fbde69e2887ee0bc",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/runner.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/server.py",
+    "sha256": "93fa60086cb5b979d176bfea7a390e67903d8f1745468abb84d043322d23e6c0",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/server.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/task.py",
+    "sha256": "fc30d7eb4fde61349094420ef83a6575ddf1532f34ee5b2253edec86eaa984a0",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/task.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/trigger.py",
+    "sha256": "98fc875bfc940b7627fa26c8216c13598a917b40c97ae6932ba8af398da8ff71",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/trigger.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/utilities.py",
+    "sha256": "d7d243c4c848323efc00ef810503ffb72df5a935d5204a56be3ca8f4ad812bbd",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/utilities.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/vendor/waitress/wasyncore.py",
+    "sha256": "ac7821b11b192a195716ecb3acd742b4ddb02fc6427577cd7a43ec644323066b",
+    "source": "payload/opt/hector-storage-manager/vendor/waitress/wasyncore.py"
+  },
+  {
+    "installed": "usr/lib/firmware/ath9k_htc/htc_9271-1.4.0.fw",
+    "sha256": "78f7d592a95b419a02fde7440f30c606fc31a871cf0ce150ced40d4857173eb0",
+    "source": "payload/usr/lib/firmware/ath9k_htc/htc_9271-1.4.0.fw"
+  },
+  {
+    "installed": "usr/lib/lv2/hector-link-sync.lv2/manifest.ttl",
+    "sha256": "0e9c05a3cc32c3e14fbdea4484323da005023fe74e2e7356f08e6dd78e05cd39",
+    "source": "payload/usr/lib/lv2/hector-link-sync.lv2/manifest.ttl"
+  },
+  {
+    "installed": "usr/lib/lv2/hector-link-sync.lv2/manifest.ttl",
+    "sha256": "2a155a013ab54134c07804d99f1e15623a16645af23e01c4d432057d849ac828",
+    "source": "payload-variants/2a155a013ab54134c07804d99f1e15623a16645af23e01c4d432057d849ac828/usr/lib/lv2/hector-link-sync.lv2/manifest.ttl"
+  },
+  {
+    "installed": "usr/lib/lv2/mala.lv2/manifest.ttl",
+    "sha256": "55b31b9fc7ab7d7b02d01d5c126a78ad279e4f4278cd5cfa101e8933a4ae8426",
+    "source": "payload/usr/lib/lv2/mala.lv2/manifest.ttl"
+  },
+  {
+    "installed": "usr/lib/lv2/poly303.lv2/manifest.ttl",
+    "sha256": "55b31b9fc7ab7d7b02d01d5c126a78ad279e4f4278cd5cfa101e8933a4ae8426",
+    "source": "payload/usr/lib/lv2/poly303.lv2/manifest.ttl"
+  },
+  {
+    "installed": "usr/local/lib/hector-ethernet-panel/backend.py",
+    "sha256": "cd7da8052fbf061b73eb546d7a2745c287d93d508a911fc5adce4099e015e214",
+    "source": "payload/usr/local/lib/hector-ethernet-panel/backend.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-ethernet-panel/client.py",
+    "sha256": "266442bf77410d9f4da6ab03de1a6c5a16ae8b6874a09c6e444710358d8efece",
+    "source": "payload/usr/local/lib/hector-ethernet-panel/client.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-link-sync/backend.py",
+    "sha256": "271da06b4441716fd846e876d15d1efbd06b96dbf78895ab6193945991b28f5a",
+    "source": "payload/usr/local/lib/hector-link-sync/backend.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-link-sync/client.py",
+    "sha256": "d47f16dfc9aad7ff9010fe720290a27c5b25130382929a01a567d246bf91a247",
+    "source": "payload/usr/local/lib/hector-link-sync/client.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-network-panel/backend.py",
+    "sha256": "236ec3dea9857dae5b2396f1e150063458e61f42719d6f939c17cc345e295acf",
+    "source": "payload/usr/local/lib/hector-network-panel/backend.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-network-panel/client.py",
+    "sha256": "0f84aeb8f837ca674fec4a8e422555ee142eb6848222b35a19950c4f80d4f4fd",
+    "source": "payload/usr/local/lib/hector-network-panel/client.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-wifi-manager/client.py",
+    "sha256": "005a858b14c1c6952a4725ca00355c18ee4c1bd32b3ab6a2b9deccf3b0862849",
+    "source": "payload/usr/local/lib/hector-wifi-manager/client.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-wifi-manager/manager.py",
+    "sha256": "c09baa11009b80fec3039b1b73cb5987a90555d122cb75ccf9581ac3471e571e",
+    "source": "payload/usr/local/lib/hector-wifi-manager/manager.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-wifi-manager/wifi_core.py",
+    "sha256": "7b5961473f6a9d361db7a111a5eece39e33942a97313c08fb3f59c6c4034f767",
+    "source": "payload/usr/local/lib/hector-wifi-manager/wifi_core.py"
+  },
+  {
+    "installed": "usr/local/lib/hector-wifi-manager/wifi_native.py",
+    "sha256": "4d44eafd6a90e5e46ed0ab989aa344bafbbad86743c849563f206f8221bc7060",
+    "source": "payload/usr/local/lib/hector-wifi-manager/wifi_native.py"
+  },
+  {
+    "installed": "usr/local/lib/poly-view-platform-recovery.py",
+    "sha256": "d0c070c65f7fa95f4d6db95b1baa1b39f35eac5a89e4a02c610738e63f98cb30",
+    "source": "payload/usr/local/lib/poly-view-platform-recovery.py"
+  },
+  {
+    "installed": "usr/share/doc/network-connection-poly-view/ATH9K-HTC-LICENSE.txt",
+    "sha256": "83870e84c54aa76be973a78387b342c80ef0908b8cb82edde6d54c511b18c16c",
+    "source": "payload/usr/share/doc/network-connection-poly-view/ATH9K-HTC-LICENSE.txt"
+  }
+]

@@ -1,0 +1,12 @@
+[Unit]
+Description=Verify Poly / View after an app update
+After=hector-platform-recovery.service hector-storage-manager.service lightdm.service jack.service
+RequiresMountsFor=/mnt /overlay/lower
+ConditionPathExists=/mnt/community-lab/hector-poly-view-platform/current.json
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/poly-view-platform-recovery.py verify
+UMask=0077
+TimeoutStartSec=1200
+LimitCORE=0

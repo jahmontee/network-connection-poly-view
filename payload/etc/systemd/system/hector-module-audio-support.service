@@ -1,0 +1,22 @@
+[Unit]
+Description=Publish verified Poly Audio module support for this boot
+After=local-fs.target hector-platform-recovery.service systemd-tmpfiles-setup.service
+Before=hector-module-catalog.service jack.service lightdm.service
+RequiresMountsFor=/mnt
+ConditionPathIsDirectory=/mnt/hector-storage-manager/modules
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/audio_support.py
+UMask=0077
+RuntimeDirectory=hector-audio-support
+RuntimeDirectoryMode=0755
+RuntimeDirectoryPreserve=yes
+Environment=TMPDIR=/run/hector-audio-support
+LimitCORE=0
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/run /tmp/hector-audio-support /mnt/hector-storage-manager/modules/lock
+RestrictAddressFamilies=AF_UNIX
+TimeoutStartSec=45

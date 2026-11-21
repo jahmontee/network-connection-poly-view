@@ -1,0 +1,11 @@
+[Unit]
+Description=Poly / View install batch
+After=local-fs.target
+RequiresMountsFor=/mnt /overlay/lower
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/module_batch_service.py
+UMask=0077
+RuntimeMaxSec=180
+LimitCORE=0

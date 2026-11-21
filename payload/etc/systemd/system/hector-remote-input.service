@@ -1,0 +1,30 @@
+[Unit]
+Description=Hector private touchscreen input
+After=lightdm.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=debian
+Group=debian
+RuntimeDirectory=hector-remote-input
+RuntimeDirectoryMode=0700
+Environment=DISPLAY=:0 XAUTHORITY=/home/debian/.Xauthority
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/screen_helper.py --input-only
+Restart=on-failure
+RestartSec=2
+TimeoutStopSec=4
+UMask=0077
+CPUQuota=10%
+MemoryMax=64M
+TasksMax=10
+LimitCORE=0
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=tmpfs
+BindReadOnlyPaths=-/home/debian/.Xauthority
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX

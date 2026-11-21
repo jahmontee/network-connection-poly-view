@@ -1,0 +1,15 @@
+[Unit]
+Description=Bounded hardware recovery guard for Hector storage activation
+DefaultDependencies=no
+Requires=mnt.mount
+After=mnt.mount
+Conflicts=shutdown.target
+Before=shutdown.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-flash-rx-fix/guard.py
+TimeoutStartSec=10
+TimeoutStopSec=2
+UMask=0077
+LimitCORE=0

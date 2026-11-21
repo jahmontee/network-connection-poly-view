@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable failed Hector storage activation and restart with original driver
+DefaultDependencies=no
+Requires=mnt.mount
+After=mnt.mount
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-flash-rx-fix/boot.py fail-confirmation
+UMask=0077
+LimitCORE=0

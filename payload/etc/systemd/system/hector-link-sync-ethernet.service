@@ -1,0 +1,30 @@
+[Unit]
+Description=Hector Link synchronization over ethernet
+Conflicts=hector-link-sync-wifi.service
+ConditionPathExists=/proc/1/ns/net
+PartOf=hector-link-sync-control.service
+[Service]
+EnvironmentFile=/run/hector-link-sync-control/interface.env
+Type=simple
+User=debian
+Group=debian
+NetworkNamespacePath=/proc/1/ns/net
+RuntimeDirectory=hector-link-sync
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=restart
+ExecStart=/usr/local/lib/hector-link-sync/helper --session /run/hector-link-sync/session --replace-stale
+KillMode=control-group
+TimeoutStopSec=5
+Restart=no
+NoNewPrivileges=yes
+AmbientCapabilities=CAP_NET_RAW
+CapabilityBoundingSet=CAP_NET_RAW
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateDevices=yes
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
+ReadWritePaths=/run/hector-link-sync
+LimitCORE=0
+UMask=0077
+StandardOutput=null
+StandardError=journal

@@ -1,0 +1,33 @@
+[Unit]
+Description=Hector private touchscreen capture
+After=lightdm.service hector-remote-input.service
+Wants=hector-remote-input.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=debian
+Group=debian
+RuntimeDirectory=hector-remote-screen
+RuntimeDirectoryMode=0700
+Environment=DISPLAY=:0 XAUTHORITY=/home/debian/.Xauthority QT_QPA_PLATFORM=xcb QT_XCB_GL_INTEGRATION=none XDG_RUNTIME_DIR=/run/hector-remote-screen
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/screen_helper.py
+Restart=on-failure
+RestartSec=8
+TimeoutStopSec=4
+UMask=0077
+Nice=19
+IOSchedulingClass=idle
+CPUQuota=20%
+MemoryMax=128M
+TasksMax=10
+LimitCORE=0
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=tmpfs
+BindReadOnlyPaths=-/home/debian/.Xauthority
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX

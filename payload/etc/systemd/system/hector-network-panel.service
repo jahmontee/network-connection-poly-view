@@ -1,0 +1,24 @@
+[Unit]
+Requires=hector-storage-setup.service
+After=hector-storage-setup.service
+Description=Hector Network Connection overview and Wi-Fi switch
+After=hector-ethernet-panel.service hector-wifi-manager.service
+RequiresMountsFor=/mnt/community-lab/network-connection/private
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-network-panel/backend.py
+Restart=on-failure
+RestartSec=3
+RuntimeDirectory=hector-network-panel
+RuntimeDirectoryMode=0750
+ReadWritePaths=/mnt/community-lab/network-connection/private
+UMask=0077
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+RestrictAddressFamilies=AF_UNIX
+LimitCORE=0
+
+[Install]
+WantedBy=multi-user.target

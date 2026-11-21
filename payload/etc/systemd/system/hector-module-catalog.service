@@ -1,0 +1,32 @@
+[Unit]
+Requires=hector-platform-flash-status.service
+After=hector-platform-flash-status.service
+Requires=hector-module-audio-support.service
+After=hector-module-audio-support.service
+Requires=hector-storage-setup.service
+After=hector-storage-setup.service
+Description=Publish the Poly / View LV2 catalog for this boot
+After=local-fs.target systemd-tmpfiles-setup.service
+Before=jack.service lightdm.service hector-storage-manager.service
+RequiresMountsFor=/mnt
+ConditionPathIsDirectory=/mnt/hector-storage-manager/modules
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=debian
+Group=debian
+RuntimeDirectory=hector-module-catalog
+RuntimeDirectoryMode=0750
+RuntimeDirectoryPreserve=yes
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/module_manager.py --activate
+ExecStartPost=-/usr/bin/python3 -I -B /opt/hector-storage-manager/app/export_module_inventory.py
+TimeoutStartSec=45
+UMask=0077
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ReadWritePaths=/mnt/hector-storage-manager/modules /run/hector-module-catalog
+PrivateTmp=yes
+PrivateDevices=yes
+RestrictAddressFamilies=AF_UNIX

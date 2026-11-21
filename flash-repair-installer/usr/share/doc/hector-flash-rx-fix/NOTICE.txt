@@ -1,0 +1,17 @@
+Hector SPI receive-completion correction0.1.0-spi-rx.1
+Kernel driver: GPL-2.0-or-later, Allwinner Tech/Pan Nan; Maxime Ripard.
+Source base: https://github.com/polyeffects/linux/tree/9dbbf7eb3c9169d0ebcd6d98783543e49b33862c
+Local RX accounting correction and early-boot support prepared for Poly Hector.
+Boot/support Python: MIT. Copyright2026 Poly Hector contributors.
+Permission is granted, free of charge, to use, copy, modify, merge, publish,
+distribute, sublicense and/or sell the MIT support software with this notice.
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+No author is liable for any claim, damages or other liability arising from its use.
+Complete kernel base, correction source/patch and build receipts are retained
+alongside this private test payload. This is not a published USB installer.
+
+Candidate .3 adds a narrowly scoped JFFS2 negative-read-error preservation correction to the same reconstructed Linux 5.4.2-rt5 sources. Original kernel/module sources remain GPL-2.0; the local bootstrap/helper remains MIT. Target module and source patch pins are in the private release report.
+
+Private .6: preserve failed split-hole reads and GC retry liveness; release detached metadata; synchronize exclusive SPI IRQ shutdown and reset on transfer error. Linux code remains GPL-2.0. Not a public installer release.
+
+Paired storage support .9 retains the checkpoint11-tested SPI and JFFS2 kernel objects. It adds independently signed, authenticated recovery for earlier SPI-only support, including the complete bounded release descriptor and reader migration. Physical acceptance of this complete installer remains pending.

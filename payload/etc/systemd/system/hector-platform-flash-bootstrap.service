@@ -1,0 +1,15 @@
+[Unit]
+Description=Prepare shared Hector preset-flash repair before storage mounts
+DefaultDependencies=no
+Requires=mnt.mount
+After=mnt.mount
+Before=hector-flash-rx-fix.service nor_flash.mount hector-platform-recovery.service shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/system_support.py
+TimeoutStartSec=90
+UMask=0077
+LimitCORE=0

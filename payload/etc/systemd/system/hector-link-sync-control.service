@@ -1,0 +1,16 @@
+[Unit]
+Description=Hector Link synchronization connection chooser
+After=hector-network-panel.service hector-module-catalog.service
+[Service]
+Type=simple
+ExecCondition=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/link_sync_condition.py
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-link-sync/backend.py
+RuntimeDirectory=hector-link-sync-control
+RuntimeDirectoryMode=0755
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=110
+LimitCORE=0
+UMask=0077
+[Install]
+WantedBy=multi-user.target

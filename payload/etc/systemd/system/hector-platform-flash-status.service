@@ -1,0 +1,19 @@
+[Unit]
+Description=Publish verified read-only Hector system repair status
+After=local-fs.target hector-platform-recovery.service hector-platform-flash-bootstrap.service hector-flash-rx-fix.service
+Before=hector-module-catalog.service
+RequiresMountsFor=/mnt
+Requires=nor_flash.mount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/system_support.py status
+RuntimeDirectory=hector-system-support
+RuntimeDirectoryMode=0755
+UMask=0077
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/run/hector-system-support
+PrivateTmp=yes
+LimitCORE=0

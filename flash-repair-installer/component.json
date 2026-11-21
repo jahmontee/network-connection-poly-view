@@ -1,0 +1,1 @@
+{"api_version":1,"config_sha256":"c50e0755d8a9a382333122ec0c0d2f21b42ba91985db99d16197ebe0e96bdfb6","id":"hector-flash-rx-fix","kernel_release":"5.4.2-rt5-001","module_sha256":"f17184df4b6a8e4f75dcce5062e3bb43cadb0b325faa180c74c95a127cea869e","schema":"poly-view-system-component/1","version":"0.1.0-spi-rx.9"}

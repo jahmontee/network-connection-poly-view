@@ -1,0 +1,10 @@
+[Unit]
+Description=Poly / View explicit repository downloads
+
+[Socket]
+ListenStream=/run/hector-repository-fetch.sock
+SocketUser=root
+SocketGroup=debian
+SocketMode=0660
+Accept=yes
+RemoveOnStop=yes

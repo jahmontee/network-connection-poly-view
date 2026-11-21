@@ -1,0 +1,20 @@
+[Unit]
+Description=Hector native AR9271 Wi-Fi setup
+After=NetworkManager.service hector-storage-setup.service
+Wants=NetworkManager.service
+Requires=hector-storage-setup.service
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-wifi-manager/manager.py
+RuntimeDirectory=hector-wifi-manager
+RuntimeDirectoryMode=0750
+Group=debian
+UMask=0077
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/mnt/community-lab/wifi-manager /run/hector-wifi-manager
+RestrictAddressFamilies=AF_UNIX
+LimitCORE=0

@@ -1,0 +1,11 @@
+[Unit]
+Description=Initialize local Poly / View data without replacing existing settings
+After=local-fs.target hector-platform-recovery.service
+Before=hector-module-catalog.service hector-storage-manager.service hector-network-panel.service hector-wifi-manager.service hector-ethernet-panel.service
+RequiresMountsFor=/mnt
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I -B /opt/hector-storage-manager/app/first_boot.py
+RemainAfterExit=yes
+UMask=0077
+LimitCORE=0

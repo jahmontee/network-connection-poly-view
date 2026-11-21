@@ -1,0 +1,12 @@
+[Unit]
+Description=Confirm Hector storage correction after healthy UI and audio startup
+After=local-fs.target jack.service lightdm.service hector-flash-rx-fix.service
+Requires=hector-flash-rx-fix.service nor_flash.mount
+OnFailure=hector-flash-rx-fallback.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I -B /usr/local/lib/hector-flash-rx-fix/boot.py confirm
+TimeoutStartSec=45
+UMask=0077
+LimitCORE=0

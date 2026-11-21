@@ -1,0 +1,10 @@
+[Unit]
+Description=Poly / View local Hector restart socket
+
+[Socket]
+ListenStream=/run/hector-module-restart.sock
+Accept=yes
+SocketUser=root
+SocketGroup=debian
+SocketMode=0660
+MaxConnections=2
