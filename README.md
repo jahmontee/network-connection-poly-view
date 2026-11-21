@@ -6,11 +6,33 @@ Network Connection sets up Ethernet and Wi-Fi on Hector. Poly / View is its loca
 
 [Download the signed USB installer](https://github.com/jahmontee/network-connection-poly-view/releases/download/v0.2.0-beta.1/Network-Connection-Poly-View-Hector-0.2.0-beta.1-USB.zip) · [All releases](https://github.com/jahmontee/network-connection-poly-view/releases)
 
-![Network Connection module on Hector in v0.2.0-beta.1](network-connection.png)
+## Screenshots
 
-![Poly / View Storage Details in v0.2.0-beta.1](poly-view-storage.png)
+*The screens use example data. Remote Desktop shows the Poly 303 Jam patch on Hector’s canvas.*
 
-*The screenshots use example network and storage data.*
+### Network Connection
+
+![Network Connection on Hector](network-connection.png)
+
+### Storage Details
+
+![Poly / View Storage Details showing SD card usage](poly-view-storage.png)
+
+### Preset Library
+
+![Poly / View Preset Library with Poly 303 Jam](poly-view-presets.png)
+
+### Audio Library
+
+![Poly / View Audio Library showing reverb impulse responses](poly-view-audio.png)
+
+### Module Manager
+
+![Poly / View Module Manager showing the installed catalog](poly-view-module-manager.png)
+
+### Remote Desktop
+
+![Poly / View Remote Desktop in control mode showing the Poly 303 Jam patch canvas](poly-view-remote-desktop.png)
 
 ## What it does
 
