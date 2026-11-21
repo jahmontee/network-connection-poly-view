@@ -43,7 +43,7 @@ Network Connection sets up Ethernet and Wi-Fi on Hector. Poly / View is its loca
 
 ## Install and use
 
-Start with Hector firmware 4.0.7 and save your patch. Extract the ZIP directly to the root of a FAT32 USB drive, power Hector off, insert the drive, and power it back on. A stock card restarts twice. Leave the drive inserted until the second restart finishes and Network Connection shows `v0.2.0-beta.1`. The patch canvas can appear for about a minute before the final restart, total install will take up to 5 - 6 minutes to complete based on the speed of your SD Card.
+Start with Hector firmware 4.0.7 and save your patch. Extract the ZIP directly to the root of a FAT32 USB drive, power Hector off, insert the drive, and power it back on. A stock card restarts twice. Leave the drive inserted until the second restart finishes and Network Connection shows `v0.2.0-beta.1`. The patch canvas can appear for about a minute before the final restart.
 
 Open **Network Connection** on Hector to set a browser password and find the local Poly / View address. For an update from a supported install, upload the original ZIP in **Module Manager → Release packages** and choose **Update**. Hector restarts automatically after the update.
 
