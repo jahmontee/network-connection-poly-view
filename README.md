@@ -6,9 +6,11 @@ Network Connection sets up Ethernet and Wi-Fi on Hector. Poly / View is its loca
 
 [Download the signed USB installer](https://github.com/jahmontee/network-connection-poly-view/releases/download/v0.2.0-beta.1/Network-Connection-Poly-View-Hector-0.2.0-beta.1-USB.zip) · [All releases](https://github.com/jahmontee/network-connection-poly-view/releases)
 
+![Network Connection module on Hector in v0.2.0-beta.1](network-connection.png)
+
 ![Poly / View Storage Details in v0.2.0-beta.1](poly-view-storage.png)
 
-*The screenshot uses example storage data.*
+*The screenshots use example network and storage data.*
 
 ## What it does
 
