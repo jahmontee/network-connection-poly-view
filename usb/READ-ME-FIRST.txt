@@ -1,4 +1,4 @@
-Network Connection / Poly / View 0.2.0-beta.1 public beta
+Network Connection / Poly / View signed release
 
 Save your patch before either installation route. Keep the original ZIP.
 
@@ -34,10 +34,3 @@ for its boot confirmation and watchdog disarm. Package verification has a
 separate90second limit. Neither timeout starts an app installation or retries
 driver activation. Logs remain on SD at /mnt/community-lab/poly-view-usb-startup
 and on USB in POLY-VIEW-INSTALL.log. Keep power on during normal progress.
-
-Source and credits
-
-This is an independent Hector community project. The public release supplies
-source and notices alongside this installer. Beebo/Hector UI portions come
-from Poly Effects' digit_ui project and carry its GNU GPL terms. Separate
-licenses apply to the Linux storage repairs, Link, firmware, fonts and libraries.

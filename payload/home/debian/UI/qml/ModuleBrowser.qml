@@ -37,6 +37,12 @@ Item {
             }
         }
         Component.onCompleted: {
+            module_browser_model.set_picker_titles({
+                "ableton_link": "Ableton Link",
+                "link_audio_receive": "Ableton Link Audio Receive",
+                "link_audio_send": "Ableton Link Audio Send",
+                "network_connection": "Network Connection"
+            });
             module_browser_model.show_favourites(showing_fav);
             module_browser_model.clear_tags();
         }
@@ -202,7 +208,7 @@ Item {
                         y: 17
                         height: 30
                         width: 598
-                        text: l_effect === "network_connection" ? "Network Connection" : l_effect.replace(/_/g, " ")
+                        text: picker_title
                         // anchors.top: parent.top
                         font {
                             pixelSize: 30

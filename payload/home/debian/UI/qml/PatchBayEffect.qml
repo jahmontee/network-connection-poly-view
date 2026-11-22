@@ -62,7 +62,16 @@ Rectangle {
 	}
 
     property var input_keys: Object.keys(ModuleInfo.effectPrototypes[effect_type]["inputs"]).filter(isRightInput) 
-    property var output_keys: Object.keys(ModuleInfo.effectPrototypes[effect_type]["outputs"])
+    readonly property bool isLinkAudio: effect_type === "link_audio_send" || effect_type === "link_audio_receive"
+    property var output_keys: {
+        if (!isLinkAudio)
+            return Object.keys(ModuleInfo.effectPrototypes[effect_type]["outputs"])
+
+        var outputs = ModuleInfo.effectPrototypes[effect_type]["outputs"];
+        return Object.keys(outputs).filter(function (key) {
+            return outputs[key][1] === "AudioPort";
+        });
+    }
     property bool has_ui: ['bitmangle', 'comparator', 'chebyschev_waveshaper', 'meta_modulation', 'wavefolder', 'vocoder', 'doppler_panner', 'twist_delay', 'frequency_shifter', 'rotary_advanced'].indexOf(effect_type) >= 0
     property var sliders; 
     // border { width:2; color: Material.color(Material.Cyan, Material.Shade100)}

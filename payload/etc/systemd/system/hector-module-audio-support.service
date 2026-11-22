@@ -1,7 +1,9 @@
 [Unit]
 Description=Publish verified Poly Audio module support for this boot
 After=local-fs.target hector-platform-recovery.service systemd-tmpfiles-setup.service
-Before=hector-module-catalog.service jack.service lightdm.service
+Requires=hector-module-catalog.service
+After=hector-module-catalog.service
+Before=jack.service lightdm.service hector-storage-manager.service
 RequiresMountsFor=/mnt
 ConditionPathIsDirectory=/mnt/hector-storage-manager/modules
 

@@ -283,7 +283,11 @@ import "module_info.js" as ModuleInfo
                     for (var target in targets){
                         var target_port_type = ModuleInfo.effectPrototypes[currentEffects[targets[target][0]]["effect_type"]]["outputs"][targets[target][1]][1]
 
-                        var target_index = effect_map[targets[target][0]].output_keys.indexOf(targets[target][1])
+                        var outputEffect = effect_map[targets[target][0]];
+                        var target_index = outputEffect.output_keys.indexOf(targets[target][1]);
+                        // Retain saved connections to hidden status ports without drawing a cable to them.
+                        if (outputEffect.isLinkAudio && target_index < 0)
+                            continue;
 						drawConnection(drawContext, effect_map[source_effect_port[0]], effect_map[targets[target][0]], target_port_type, 
 							target_index, source_index, source_port_type);
                     } 

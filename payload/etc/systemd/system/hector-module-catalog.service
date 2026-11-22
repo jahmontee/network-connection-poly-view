@@ -1,8 +1,7 @@
 [Unit]
 Requires=hector-platform-flash-status.service
 After=hector-platform-flash-status.service
-Requires=hector-module-audio-support.service
-After=hector-module-audio-support.service
+Wants=hector-module-audio-support.service
 Requires=hector-storage-setup.service
 After=hector-storage-setup.service
 Description=Publish the Poly / View LV2 catalog for this boot

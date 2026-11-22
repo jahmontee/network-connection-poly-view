@@ -120,7 +120,8 @@ def publish(manager,unit_root=UNITS,root=ROOT):
     rows=[]
     with manager.locked():
         state=manager.state()
-        for key,record in state['target'].items():
+        # Catalog activation commits browser batches before this service runs.
+        for key,record in state['applied'].items():
             row=plan(manager,record,key)
             if row is None:continue
             rows.append(row)

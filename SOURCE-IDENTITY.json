@@ -9,6 +9,6 @@
   },
   "upstream_reference_commit": "feb4df451067850770ddd13af9f4e2828234dabc",
   "upstream_ui": "https://github.com/polyeffects/digit_ui",
-  "usb_sha256": "ba1135d104b173999b92962247c81ee9d2f746ca1a890470fb635d0deadbcffe",
-  "version": "0.2.0-beta.1"
+  "usb_sha256": "ab6183ad2d85ec22dedfe0cf07be69ffeaee387c15792ad3dd84fff42e44963d",
+  "version": "0.2.0-beta.4"
 }

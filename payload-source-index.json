@@ -21,7 +21,7 @@
   },
   {
     "installed": "etc/systemd/system/hector-module-audio-support.service",
-    "sha256": "cd6c84f18f154221fc0f9cede2f79b9138c1061956918397b12e6e2253403ed5",
+    "sha256": "ec643237373bbf18683720adee6ee8804530a28dfdf5f1c328176b1238c709e3",
     "source": "payload/etc/systemd/system/hector-module-audio-support.service"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "installed": "etc/systemd/system/hector-module-catalog.service",
-    "sha256": "3dbf4797da2ae2a594373786a701817cfa8a1c72ca45ce5e050ca16e1c754f01",
+    "sha256": "ecf158a49743ef1f13c0cab4486a8b4e63aa7fed594d265c3a3057693c206830",
     "source": "payload/etc/systemd/system/hector-module-catalog.service"
   },
   {
@@ -205,6 +205,26 @@
     "source": "payload/home/debian/UI/mala_407.py"
   },
   {
+    "installed": "home/debian/UI/module_browser_model.py",
+    "sha256": "31c653c7612843a2a3d412612b40c19086c38cde21517ccdd3b712397fab7eaa",
+    "source": "payload-variants/31c653c7612843a2a3d412612b40c19086c38cde21517ccdd3b712397fab7eaa/home/debian/UI/module_browser_model.py"
+  },
+  {
+    "installed": "home/debian/UI/module_browser_model.py",
+    "sha256": "a2071a0f952a5b57fc7d0bb156f9234800435758629da4e039f526afd1dd33f4",
+    "source": "payload/home/debian/UI/module_browser_model.py"
+  },
+  {
+    "installed": "home/debian/UI/module_browser_model.py",
+    "sha256": "b69b34fae209ae6c4f1c6b45b5f8ad19fe362ed2aa62bc73418cfc81ff67b3fc",
+    "source": "payload-variants/b69b34fae209ae6c4f1c6b45b5f8ad19fe362ed2aa62bc73418cfc81ff67b3fc/home/debian/UI/module_browser_model.py"
+  },
+  {
+    "installed": "home/debian/UI/module_browser_model.py",
+    "sha256": "d4beafe2bc09df44b3fab7185aa62c05f288bd5860380cf295b76e77f9dd7647",
+    "source": "payload-variants/d4beafe2bc09df44b3fab7185aa62c05f288bd5860380cf295b76e77f9dd7647/home/debian/UI/module_browser_model.py"
+  },
+  {
     "installed": "home/debian/UI/module_info.py",
     "sha256": "3717b63ed2120a8b02423fb047b8b452bd632427ca0962d3139c8cb7ad914c66",
     "source": "payload-variants/3717b63ed2120a8b02423fb047b8b452bd632427ca0962d3139c8cb7ad914c66/home/debian/UI/module_info.py"
@@ -276,103 +296,103 @@
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "044c23c0b499366a0add5e0f801f9ab6e1574fdb7543bf97fb3a6fef19d9df12",
-    "source": "payload-variants/044c23c0b499366a0add5e0f801f9ab6e1574fdb7543bf97fb3a6fef19d9df12/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "03d20b4ad0ece1ab59f25db1ca8881499112fd7e254481de9f1fd52cbe2e855a",
+    "source": "payload-variants/03d20b4ad0ece1ab59f25db1ca8881499112fd7e254481de9f1fd52cbe2e855a/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "26bf88f8579e07b150dcffcac4335955242b30ca6b281e89fdf162af38d47a80",
-    "source": "payload-variants/26bf88f8579e07b150dcffcac4335955242b30ca6b281e89fdf162af38d47a80/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "29393711b43d301d1ce1f4456e6e83589d304d9e04f9ec5a8b431a482fe3c3c3",
+    "source": "payload-variants/29393711b43d301d1ce1f4456e6e83589d304d9e04f9ec5a8b431a482fe3c3c3/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "3432241efb353b8a0111b2c671453b728fcdf1612f747a022e7508bb8a74397d",
-    "source": "payload-variants/3432241efb353b8a0111b2c671453b728fcdf1612f747a022e7508bb8a74397d/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "378ca6ef8cd6691d3770c7d4e85e6573b042ac32e67623d1291722c592c33de0",
+    "source": "payload-variants/378ca6ef8cd6691d3770c7d4e85e6573b042ac32e67623d1291722c592c33de0/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "731aa3c3a0b542308645f6eb5bf305d295633f3ca3a8e97f13e989e018aec28e",
+    "sha256": "5978a0edf0958aaac70a17990150ef1259ab258b0850155a35d5db089f66b8e6",
     "source": "payload/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "aa96cddd97c35e24265efe26c4c86c60baac9878b4902f32ee3cc28995f5b5e5",
-    "source": "payload-variants/aa96cddd97c35e24265efe26c4c86c60baac9878b4902f32ee3cc28995f5b5e5/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "757be806d22cc59664c58d69e3f1ba3b0b96baa91b1289c0a904e0223d405a81",
+    "source": "payload-variants/757be806d22cc59664c58d69e3f1ba3b0b96baa91b1289c0a904e0223d405a81/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "be91cdbb8c23208bb08796f0589f443052449b4d9cc1edbef7fbddff426210fc",
-    "source": "payload-variants/be91cdbb8c23208bb08796f0589f443052449b4d9cc1edbef7fbddff426210fc/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "8b099414cd402b065b2f9f34829c94c633311e910b71f685799ee3f082458f25",
+    "source": "payload-variants/8b099414cd402b065b2f9f34829c94c633311e910b71f685799ee3f082458f25/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "d81cdcbe496fcaa4b2ce3d76c8ba7c0d98999ec038ce2cbce42f4fd45a6489c5",
-    "source": "payload-variants/d81cdcbe496fcaa4b2ce3d76c8ba7c0d98999ec038ce2cbce42f4fd45a6489c5/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "b508bcd37f2720aae18d80dcae8329578e3ac666d091e3b61ace91376ea07188",
+    "source": "payload-variants/b508bcd37f2720aae18d80dcae8329578e3ac666d091e3b61ace91376ea07188/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/ModuleBrowser.qml",
-    "sha256": "d8aebb5e95e40a6acceb3e75e9a98985d6f56f04f503ee5ec2edc4ce00024aee",
-    "source": "payload-variants/d8aebb5e95e40a6acceb3e75e9a98985d6f56f04f503ee5ec2edc4ce00024aee/home/debian/UI/qml/ModuleBrowser.qml"
+    "sha256": "bcd2c8411e280428d7eade37d27d4ed47688cee8ce6b6fe7c616b97971ddb7c4",
+    "source": "payload-variants/bcd2c8411e280428d7eade37d27d4ed47688cee8ce6b6fe7c616b97971ddb7c4/home/debian/UI/qml/ModuleBrowser.qml"
   },
   {
     "installed": "home/debian/UI/qml/PatchBay.qml",
-    "sha256": "4514decad43dcd2414eb204d50e10e629e31617963252a126ca920437ecebb84",
-    "source": "payload-variants/4514decad43dcd2414eb204d50e10e629e31617963252a126ca920437ecebb84/home/debian/UI/qml/PatchBay.qml"
+    "sha256": "3f814534685fbdf1ba99aea6f29a7b83bb21ca0b5cac83f1d739f1e6dca30403",
+    "source": "payload-variants/3f814534685fbdf1ba99aea6f29a7b83bb21ca0b5cac83f1d739f1e6dca30403/home/debian/UI/qml/PatchBay.qml"
   },
   {
     "installed": "home/debian/UI/qml/PatchBay.qml",
-    "sha256": "5d28e4e2a0d37fa40e24535d6b49a8a2c628e7a87bf4f9191a944236340572ec",
-    "source": "payload-variants/5d28e4e2a0d37fa40e24535d6b49a8a2c628e7a87bf4f9191a944236340572ec/home/debian/UI/qml/PatchBay.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBay.qml",
-    "sha256": "9a23f0c881e7e7c83149968fdf8658565e804520a67b2cea09db80f8a931573c",
-    "source": "payload-variants/9a23f0c881e7e7c83149968fdf8658565e804520a67b2cea09db80f8a931573c/home/debian/UI/qml/PatchBay.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBay.qml",
-    "sha256": "9febd3c53e2b7845ff54140481d949682a2b8447351927f618df2ea8888a339c",
+    "sha256": "4d5e95c5cf8f54e338155823b81f6186c93c813ae4797e15bd9b04a86908fcd0",
     "source": "payload/home/debian/UI/qml/PatchBay.qml"
   },
   {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "3aed0c4e7be338580af9aeb3c0aa705afac8478f4d5ccbcba40ee89dfa32f38b",
-    "source": "payload-variants/3aed0c4e7be338580af9aeb3c0aa705afac8478f4d5ccbcba40ee89dfa32f38b/home/debian/UI/qml/PatchBayEffect.qml"
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "c692a518369ef583920a7a2f1dde8172fdb5d9a4a7d90a9320c99e673f4d1ccb",
+    "source": "payload-variants/c692a518369ef583920a7a2f1dde8172fdb5d9a4a7d90a9320c99e673f4d1ccb/home/debian/UI/qml/PatchBay.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBay.qml",
+    "sha256": "f725dd672f72a27de56adbc0c349285a2119d2cb903a1bd25321242c87297e59",
+    "source": "payload-variants/f725dd672f72a27de56adbc0c349285a2119d2cb903a1bd25321242c87297e59/home/debian/UI/qml/PatchBay.qml"
   },
   {
     "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "3ff25e80b8336e57c9e4c9e67f32d113a2008bd7c1fc35933f52e32a10a670af",
+    "sha256": "01e39c48cfdaadb9256455090ab803ec8c4ae8cdac163c367d9357ed87612448",
+    "source": "payload-variants/01e39c48cfdaadb9256455090ab803ec8c4ae8cdac163c367d9357ed87612448/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "235ddbd4df4131ed5b71a6ebe537eb4ffbd4aa9438bd499119fcd0e2b528fb23",
+    "source": "payload-variants/235ddbd4df4131ed5b71a6ebe537eb4ffbd4aa9438bd499119fcd0e2b528fb23/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "23c995138de13aeb818a7d763ff01d0adbbb68d64518fc88e216f319f6a74bc0",
+    "source": "payload-variants/23c995138de13aeb818a7d763ff01d0adbbb68d64518fc88e216f319f6a74bc0/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "37b3f06bab4618e8474d74e59481a934f0fac0d4d9f2cfb1d8d72e34d86aa17a",
+    "source": "payload-variants/37b3f06bab4618e8474d74e59481a934f0fac0d4d9f2cfb1d8d72e34d86aa17a/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "8fdbb917b9b8948fe536d36ed76c37e3475cbe909acd333a60cc401a36541d84",
+    "source": "payload-variants/8fdbb917b9b8948fe536d36ed76c37e3475cbe909acd333a60cc401a36541d84/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "969d73c538fa024974dd61b816c0ea10b41fcd8aa793aaa6226d43d205d7a330",
+    "source": "payload-variants/969d73c538fa024974dd61b816c0ea10b41fcd8aa793aaa6226d43d205d7a330/home/debian/UI/qml/PatchBayEffect.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "9c17e38428d9a3dc7e091467369f743e728a804eec5772260f8c1a33d09e6041",
     "source": "payload/home/debian/UI/qml/PatchBayEffect.qml"
   },
   {
     "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "452bfa80df8f2b790c06e640a9c2b29dbefa1dad530e58bbf858c0c7797cdf76",
-    "source": "payload-variants/452bfa80df8f2b790c06e640a9c2b29dbefa1dad530e58bbf858c0c7797cdf76/home/debian/UI/qml/PatchBayEffect.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "5f8fbb2f96cc1fa1cd540932d8eeaa982c237b4ad6ec4fae59efd517e32a52bb",
-    "source": "payload-variants/5f8fbb2f96cc1fa1cd540932d8eeaa982c237b4ad6ec4fae59efd517e32a52bb/home/debian/UI/qml/PatchBayEffect.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "8437ca44f65f853f1c932f4f3b0533e5e9e5ad1a7d42d3a8585ada26480dc843",
-    "source": "payload-variants/8437ca44f65f853f1c932f4f3b0533e5e9e5ad1a7d42d3a8585ada26480dc843/home/debian/UI/qml/PatchBayEffect.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "885b2274ad0b5543e28851a8c182042fc482aca1962f6c0c8da65ac4743b510c",
-    "source": "payload-variants/885b2274ad0b5543e28851a8c182042fc482aca1962f6c0c8da65ac4743b510c/home/debian/UI/qml/PatchBayEffect.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "98a5e5c50e19c2a580beb71464ed992ae96da9f8e8334cc55e9ffb4267f49eca",
-    "source": "payload-variants/98a5e5c50e19c2a580beb71464ed992ae96da9f8e8334cc55e9ffb4267f49eca/home/debian/UI/qml/PatchBayEffect.qml"
-  },
-  {
-    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
-    "sha256": "e86b91f9f24755bc597d4471a738c98552d5dd9e0e1cc1a1492a97766ff0db12",
-    "source": "payload-variants/e86b91f9f24755bc597d4471a738c98552d5dd9e0e1cc1a1492a97766ff0db12/home/debian/UI/qml/PatchBayEffect.qml"
+    "sha256": "e539b0209b39bd3ce207800ad4f7e99258321ded3a9225fb597e798e835faec4",
+    "source": "payload-variants/e539b0209b39bd3ce207800ad4f7e99258321ded3a9225fb597e798e835faec4/home/debian/UI/qml/PatchBayEffect.qml"
   },
   {
     "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
@@ -541,63 +561,63 @@
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "0b9303171b7bc5d2adc7f85935c4b004761282cf09299fbc378af28fbf443fb4",
-    "source": "payload-variants/0b9303171b7bc5d2adc7f85935c4b004761282cf09299fbc378af28fbf443fb4/home/debian/UI/show_widget.py"
+    "sha256": "09c864d40fb4dbeaa6a4e69c5b7f1b664fd174a4735118a4a270e1e9c0e766be",
+    "source": "payload-variants/09c864d40fb4dbeaa6a4e69c5b7f1b664fd174a4735118a4a270e1e9c0e766be/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "1db57fd6d10eac3d1006cb7f1ea8d6c90bba15c122b59ee39e671ec47a221e06",
-    "source": "payload-variants/1db57fd6d10eac3d1006cb7f1ea8d6c90bba15c122b59ee39e671ec47a221e06/home/debian/UI/show_widget.py"
+    "sha256": "1528d63e403e2264b541d3b0e385fe2946d1d5986a2a369ce4f86af217406d4a",
+    "source": "payload-variants/1528d63e403e2264b541d3b0e385fe2946d1d5986a2a369ce4f86af217406d4a/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "241f302de319d2cb4387dff65e40a4c0456ec70c88a96f0a4588ae202e37b7cc",
-    "source": "payload-variants/241f302de319d2cb4387dff65e40a4c0456ec70c88a96f0a4588ae202e37b7cc/home/debian/UI/show_widget.py"
-  },
-  {
-    "installed": "home/debian/UI/show_widget.py",
-    "sha256": "5348cee539f416016dd623a6e6f238de20eea93bb2f8031fbb12de84da454ec6",
-    "source": "payload-variants/5348cee539f416016dd623a6e6f238de20eea93bb2f8031fbb12de84da454ec6/home/debian/UI/show_widget.py"
-  },
-  {
-    "installed": "home/debian/UI/show_widget.py",
-    "sha256": "5ee80bacf74c892b22dc95291a81f0bab7ed2b914ecac667547b6e4908e67499",
+    "sha256": "1ecb9f5eabd44dd17d83986e3dd8ebb1c0ba4e545c1390dc54e6018bed20f4b6",
     "source": "payload/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "6b0b4ad84c7a56f71e89e8795f8bb2eea4da68e13d0b661e5faba732010dd316",
-    "source": "payload-variants/6b0b4ad84c7a56f71e89e8795f8bb2eea4da68e13d0b661e5faba732010dd316/home/debian/UI/show_widget.py"
+    "sha256": "35252729ba10bd849458b39df655a434a5b78cac35bc9abd8cef7aac1fd25f46",
+    "source": "payload-variants/35252729ba10bd849458b39df655a434a5b78cac35bc9abd8cef7aac1fd25f46/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "70494a3c875e2cbd6ba31f5c2a82a302e396b33b3e582fc627d2c2362caa5f2b",
-    "source": "payload-variants/70494a3c875e2cbd6ba31f5c2a82a302e396b33b3e582fc627d2c2362caa5f2b/home/debian/UI/show_widget.py"
+    "sha256": "403f34fd4b3b4fdc12374943e12bfc16badbac427e9408679ee4d7be409d3233",
+    "source": "payload-variants/403f34fd4b3b4fdc12374943e12bfc16badbac427e9408679ee4d7be409d3233/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "8719af7cad6a08179adf4af25390c3f1ea0903b2958ae77d0f0ae974ecc4c8b7",
-    "source": "payload-variants/8719af7cad6a08179adf4af25390c3f1ea0903b2958ae77d0f0ae974ecc4c8b7/home/debian/UI/show_widget.py"
+    "sha256": "4b824061c9887b0331e3e6e3cdeeede4cefa7b8a19170957f11b403652f2c821",
+    "source": "payload-variants/4b824061c9887b0331e3e6e3cdeeede4cefa7b8a19170957f11b403652f2c821/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "a1c99607be8c963d0eae71725a8f32b6eca58788440673df8266908b21cd7f5f",
-    "source": "payload-variants/a1c99607be8c963d0eae71725a8f32b6eca58788440673df8266908b21cd7f5f/home/debian/UI/show_widget.py"
+    "sha256": "5f8d184be7fe6b0bca83a9d6df60bd00866853ddc04241177f41f7a138983c49",
+    "source": "payload-variants/5f8d184be7fe6b0bca83a9d6df60bd00866853ddc04241177f41f7a138983c49/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "d9e9ba5451aa49647915b4b80a0c65c8551e436f7dbb15ad6fdfa2fa77eafcd8",
-    "source": "payload-variants/d9e9ba5451aa49647915b4b80a0c65c8551e436f7dbb15ad6fdfa2fa77eafcd8/home/debian/UI/show_widget.py"
+    "sha256": "ab71e2227ec1837c842fa31a1be126a0bc5bf52ea594978e1212c1255694587c",
+    "source": "payload-variants/ab71e2227ec1837c842fa31a1be126a0bc5bf52ea594978e1212c1255694587c/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "dfde16a9258b38c88d88c7ee3d93e40f31e08c23916415e869c96b6eefda2449",
-    "source": "payload-variants/dfde16a9258b38c88d88c7ee3d93e40f31e08c23916415e869c96b6eefda2449/home/debian/UI/show_widget.py"
+    "sha256": "bfb8d84756e2c2c84b7268ac09ab3028ad31a810f665b7402af4353c1b72ab5d",
+    "source": "payload-variants/bfb8d84756e2c2c84b7268ac09ab3028ad31a810f665b7402af4353c1b72ab5d/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/show_widget.py",
-    "sha256": "ebc30780499cea2a62c4ac4f384264b35db8d33592534e1402500560aee7391c",
-    "source": "payload-variants/ebc30780499cea2a62c4ac4f384264b35db8d33592534e1402500560aee7391c/home/debian/UI/show_widget.py"
+    "sha256": "d279dfa2137c8e75fb5a2c1e789faebe21e329e5c1f5015639e425c423e83cca",
+    "source": "payload-variants/d279dfa2137c8e75fb5a2c1e789faebe21e329e5c1f5015639e425c423e83cca/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "eb8df286beca351d65969c8765f0770563fb922f134b1b2b98372526c0ca4368",
+    "source": "payload-variants/eb8df286beca351d65969c8765f0770563fb922f134b1b2b98372526c0ca4368/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "fd99842ac3ef04b65dae08482c2806b551fba771303354bd9f330de7198189a1",
+    "source": "payload-variants/fd99842ac3ef04b65dae08482c2806b551fba771303354bd9f330de7198189a1/home/debian/UI/show_widget.py"
   },
   {
     "installed": "home/debian/UI/wifi_407.py",
@@ -611,7 +631,7 @@
   },
   {
     "installed": "opt/hector-storage-manager/app/audio_support.py",
-    "sha256": "1e7a7d890ac30cf68e2b87e51721df542af246db443318d243f42081ebf674aa",
+    "sha256": "277fbbe32b346fd59c426915a291e7978721ba0c06b480cd4e57151b0125351f",
     "source": "payload/opt/hector-storage-manager/app/audio_support.py"
   },
   {
@@ -956,7 +976,7 @@
   },
   {
     "installed": "opt/hector-storage-manager/platform-version.json",
-    "sha256": "0b12fbf78b53410e463d99e808592b7766005e9883f8b189d263dc4cd2b3fde8",
+    "sha256": "236422f13cb424b3f3680f00cd5728d66709f8ad5b058c8968e4d61bf0b5b947",
     "source": "payload/opt/hector-storage-manager/platform-version.json"
   },
   {

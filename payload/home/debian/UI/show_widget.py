@@ -824,7 +824,13 @@ class Knobs(QObject, metaclass=properties.PropertyMeta):
         effect_type = current_effects[effect_id]["effect_type"]
         # debug_print("selecting effect type", effect_type, is_source, "interconnect is ", interconnect)
         if is_source:
-            ports = sorted([v[1]+'|'+v[0]+'|'+k for k,v in effect_prototypes[effect_type]["outputs"].items()])
+            outputs = effect_prototypes[effect_type]["outputs"]
+            audio_only = effect_type in ("link_audio_send", "link_audio_receive")
+            ports = sorted(
+                f"{definition[1]}|{definition[0]}|{symbol}"
+                for symbol, definition in outputs.items()
+                if not audio_only or definition[1] == "AudioPort"
+            )
             selected_source_effect_ports.setStringList(ports)
         else:
 

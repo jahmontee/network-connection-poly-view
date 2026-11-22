@@ -2,9 +2,11 @@
 
 Network Connection sets up Ethernet and Wi-Fi on Hector. Poly / View is its local browser workspace for storage, presets, audio, community modules, and remote desktop.
 
-**First public beta · Hector firmware 4.0.7 · v0.2.0-beta.1**
+**Public beta · Hector firmware 4.0.7 · v0.2.0-beta.4**
 
-[Download the signed USB installer](https://github.com/jahmontee/network-connection-poly-view/releases/download/v0.2.0-beta.1/Network-Connection-Poly-View-Hector-0.2.0-beta.1-USB.zip) · [All releases](https://github.com/jahmontee/network-connection-poly-view/releases)
+[Download the signed USB installer](https://github.com/jahmontee/network-connection-poly-view/releases/download/v0.2.0-beta.4/Network-Connection-Poly-View-Hector-0.2.0-beta.4-USB.zip) · [What’s new](https://github.com/jahmontee/network-connection-poly-view/releases/tag/v0.2.0-beta.4) · [All releases](https://github.com/jahmontee/network-connection-poly-view/releases)
+
+**Beta.4 fixes first-reboot startup for Link Audio Send and Receive after installation through Poly / View.**
 
 ## Screenshots
 
@@ -43,11 +45,11 @@ Network Connection sets up Ethernet and Wi-Fi on Hector. Poly / View is its loca
 
 ## Install and use
 
-Start with Hector firmware 4.0.7 and save your patch. Extract the ZIP directly to the root of a FAT32 USB drive, power Hector off, insert the drive, and power it back on. Allow up to six minutes for the USB installation to finish, depending on your SD card’s speed. A stock card restarts twice. Leave the drive inserted until the second restart finishes and Network Connection shows `v0.2.0-beta.1`. The patch canvas can appear for about a minute before the final restart.
+Start with Hector firmware 4.0.7 and save your patch. Extract the ZIP directly to the root of a FAT32 USB drive, power Hector off, insert the drive, and power it back on. Allow up to six minutes for the USB installation to finish, depending on your SD card’s speed. A stock card restarts twice. Leave the drive inserted until the second restart finishes and Network Connection shows `v0.2.0-beta.4`. The patch canvas can appear for about a minute before the final restart.
 
 Open **Network Connection** on Hector to set a browser password and find the local Poly / View address. For an update from a supported install, upload the original ZIP in **Module Manager → Release packages** and choose **Update**. Hector restarts automatically after the update.
 
-The signed installer includes two Linux storage repairs. The same ZIP contains both the hardware USB entry point and the data that Module Manager verifies for an update. See the [release notes](https://github.com/jahmontee/network-connection-poly-view/releases/tag/v0.2.0-beta.1) for compatibility and recovery details.
+The signed installer includes two Linux storage repairs. The same ZIP contains both the hardware USB entry point and the data that Module Manager verifies for an update. See the [release notes](https://github.com/jahmontee/network-connection-poly-view/releases/tag/v0.2.0-beta.4) for compatibility and recovery details.
 
 ### Tested adapters on Hector 4.0.7
 

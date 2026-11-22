@@ -4,7 +4,7 @@
 
 ## Beebo and Hector touchscreen integration
 
-Loki Davison, Poly Effects, and contributors wrote the upstream Beebo and Hector user interface. The release includes files adapted for Network Connection setup, the button and panel bindings, module discovery, and Poly / View. Modified copies and compatibility variants are identified in `payload-source-index.json`. Modifications were made in October and November 2026. The upstream project places files without a separate license notice under the GNU GPL. This distribution supplies the GPL version 3 text for those portions and retains any separate notices found in the files. [Poly Effects digit_ui](https://github.com/polyeffects/digit_ui/blob/feb4df451067850770ddd13af9f4e2828234dabc/README.md) · [Official firmware 4.0.7 source reference](https://www.polyeffects.com/firmware/improved-beebo-hector-407-installer)
+Loki Davison, Poly Effects, and contributors wrote the upstream Beebo and Hector user interface. The release includes files adapted for Network Connection setup, the button and panel bindings, module discovery and picker ordering, and Poly / View. Modified copies and compatibility variants are identified in `payload-source-index.json`. Modifications were made in October and November 2026. The upstream project places files without a separate license notice under the GNU GPL. This distribution supplies the GPL version 3 text for those portions and retains any separate notices found in the files. [Poly Effects digit_ui](https://github.com/polyeffects/digit_ui/blob/feb4df451067850770ddd13af9f4e2828234dabc/README.md) · [Official firmware 4.0.7 source reference](https://www.polyeffects.com/firmware/improved-beebo-hector-407-installer)
 
 ## Bundled components
 
